@@ -2,7 +2,7 @@
 
 **Inventory snapshot:** 2026-11-13  
 **Source folder:** Private Google Drive folder named `Salesforce`  
-**Public handbook:** 716 Q&A in 30 chapters (v3.7)  
+**Public handbook:** 736 Q&A in 30 chapters (v3.8)  
 **Confidentiality policy:** Do **not** publish source-document URLs, Google file identifiers, internal account references, client names, personal certificates/resumes, credentials, or verbatim proprietary training material.
 
 ## Reading this register
@@ -20,7 +20,7 @@
 | Interaction Studio | Sitemap implementations, templates, integration, API, use cases, internal docs, client case studies | Partially integrated | More template ZIPs, server-side examples, remaining documents |
 | Data cloud | Large overall notes document, bookmarks, Admin Implementation Guide (Summer '24), three certification cohort PDFs | Partially integrated | Review large cohort decks and dated product-specific details without reproducing training material |
 | Interview | Two interview Q&A docs and two personal résumés | Q&A reviewed in initial discovery; résumés excluded | Reconcile remaining interview prompts; exclude personal résumés |
-| Marketo | Bookmarks, training plan, nine licensed-course PDF sections | Inventoried / pending | Original cross-platform comparison and migration lessons only, without copied course content |
+| Marketo | Bookmarks, training plan, nine licensed-course PDF sections | Reviewed selectively and integrated 8 original migration Q&A in v3.8 | Remaining independent cross-platform mapping and architecture review; no course reproduction |
 | Certificates | Personal certification documents | Excluded | Do not publish |
 | Preeti | CloudPages API implementation guide and two POC HTML files | Guide reviewed / partially integrated | Inspect remaining code POCs for conceptual patterns only; redact all credentials |
  
@@ -38,7 +38,7 @@
 | SFMC administration and send reputation | v3.1 + v3.5 + v3.7; an additional Udemy-style admin note reviewed in v3.7 | Full audit of send authentication, deliverability and changing limits |
 | HubSpot / Pardot migration materials | Some implementation framework, SOW and migration discovery material reviewed, v3.7 Q&A added | Full field-by-field migration checklist and test cases |
 | CloudPages/API POC folder | Implementation guide reviewed v3.7 | Two POC HTML files inspected for general architecture risks; implementation-level code review remains |
-| SFMC seven course collections | All seven named course folders located. Screenshots/exercises nested below them | Predominantly screenshot/third-party coursework; inventory, rights check and synthesis only |
+| SFMC seven course collections | All seven named course folders located; 1,355 screenshot files enumerated across named screenshot folders in v3.8 | Individual screenshot content not yet reviewed; exercises and ZIPs subject to rights check |
 | SFMC client case studies, SOW, requirements | Several docs reviewed v3.7 | Additional case studies and client documents pending; no disclosure of clients |
 | SFMC developer learning path | Surveyed; largely role/phase and third-party course links | Original learning pathway can be synthesized; no licensed copying |
 | SFMC IP warming / edition feature sheets | Folder contents inventoried; partially represented conceptually | Check Salesforce's current editions/contract instead of publishing historical pricing claims |
@@ -62,7 +62,7 @@
 | --- | --- |
 | Overall notes and references | Partially reviewed and synthesized v3.4 |
 | Summer '24 Salesforce admin implementation guide | Reviewed for architecture steps, but dated and not copied |
-| Three large Data Cloud certification training PDFs | Inventoried; full content review pending |
+| Three large Data Cloud certification training PDFs | Thematically inspected in v3.8; no slide/exam item reproduction; deeper product-accuracy review pending |
 | Permissions, identity, DLO/DMO mapping, insights, segmentation, activation | Covered by new original Q&A; still requires item-by-item fact audit |
 
 ## Notable gaps before declaring the Drive fully harmonized
@@ -91,3 +91,11 @@
 5. Prioritize practical question-depth and official reference relevance audits.
 
 **This is a traceable, partial inventory**, not a claim that every nested Drive file has been read.
+
+## v3.8 additional source triage
+
+- Thematic review of the three Data 360 cohort PDFs: ingestion/modeling, identity/segmentation/activation, and exam preparation. Their subject areas largely overlap topics already present in the Data 360 labs. The decks are not reproduced.
+- Selected Marketo training PDF sections were used only to identify migration capability categories; eight newly authored and Adobe-reference-supported migration Q&A were integrated.
+- Source review expanded to CloudPages/REST POC HTML files, a bulk CSV import script, child-BU delete script, migration roadmaps, suppressions, lifecycle journeys and source/client Q&A. Only generalized original interview learning is published.
+- Screenshot-only course folders: 1,355 file entries enumerated. These were not OCR-processed, fact-checked or republished. This count excludes potential exercise descendants and does not prove an exhaustive all-folder file count.
+- A full recursive count across every nested source folder is **not yet established**. Never report 100% coverage on this evidence.
