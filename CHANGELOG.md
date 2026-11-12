@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.7.0 — 2026-11-13
+- Continued discovery of the Google Drive Salesforce folder beyond the previously reviewed technical notes, including SFMC courses, migration case studies, additional administration learning, secure CloudPages/API examples, and other source material.
+- Added **33 independently authored, generalized Q&A** (21 migration/secure integration and 12 bulk-import/SFTP/contact-delete scenarios) to **Migration, delivery & secure integration case studies**.
+- Total **716 questions across 30 chapters**.
+- Created `DRIVE_COVERAGE.md` as a source-privacy-safe coverage register; see it for reviewed vs unreviewed groupings.
+- Confirmed Salesforce documentation on asynchronous Contact Delete, enterprise scope, irreversible job initiation, file-drop trigger matching, and batch-upsert considerations.
+- Not all nested screenshots, PDFs, ZIPs or client documents have been exhaustively reviewed. Source extraction does not mean every platform statement was individually verified.
+
 ## 3.6.0 — 2026-11-13
 - Started the systematic quality and publication-readiness audit of all 683 Q&A and 29 chapters.
 - Resolved four exact repeated question titles by rewriting second occurrences as distinct implementation/troubleshooting topics, preserving all question IDs.
