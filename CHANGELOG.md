@@ -1,5 +1,14 @@
 # Changelog
 
+## 3.5.0 — 2026-11-13
+- Reviewed private Salesforce Drive notes on MobilePush implementation, Marketing Cloud Connect integration, and SFMC administrator setup; the MobileConnect notes file had no readable content.
+- Added **36 original, generalized Q&A** in **Mobile Studio & CRM integration architecture labs**.
+- Covered MobileConnect keywords, STOP/HELP, international sending, India DLT and troubleshooting; MobilePush SDK registration, identity, device tokens, APNs/FCM, push versus in-app messaging and operational scenarios; Marketing Cloud Connect authentication, CRM synchronization, Multi-Org, IER, and integration testing.
+- Reconciled selected technical claims with current Salesforce developer/help documentation; historical tenant or release-specific details are not presented as universal constraints.
+- Total: **683 Q&A across 29 chapters**.
+- Kept client identity, internal data and private source documentation out of the public repository.
+- Remaining research material and full reference-link audit are not complete.
+
 ## 3.4.0 — 2026-11-13
 - Reviewed the Data Cloud overall learning notes and reference bookmarks from the private Salesforce Google Drive folder, plus the Salesforce Summer '24 Data Cloud Admin Implementation Guide.
 - Added **38 original, generalized interview Q&A** under **Data 360 architecture, identity & activation labs**.
