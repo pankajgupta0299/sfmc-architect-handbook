@@ -1,5 +1,14 @@
 # Changelog
 
+## 3.8.0 — 2026-11-13
+- Continued source-folder coverage review and integrated **20 more independently authored Q&A**: 12 CRM/suppression/forms scenarios and 8 Marketo-to-SFMC migration scenarios.
+- Confirmed Adobe Marketo Engage concepts against Adobe's 2026 documentation for Smart Lists, Smart Campaigns, Programs, statuses, nurturing and reporting; no proprietary exam items or course slides were reproduced.
+- Inspected the three Data 360 certification cohort PDFs for thematic coverage and marked them as training-reference material, not source content for copying.
+- Counted **1,355 screenshots** in the named screenshot and all-screenshots folders across the seven SFMC course collections (including the first course). These are inventoried, not individually visually reviewed or integrated.
+- Added/reconciled confidentiality-safe coverage status in `DRIVE_COVERAGE.md`.
+- Total: **736 original interview Q&A across 30 chapters**.
+- All external Salesforce/Adobe documentation links and all individual technical claims still need the complete pre-publication link/accuracy audit.
+
 ## 3.7.0 — 2026-11-13
 - Continued discovery of the Google Drive Salesforce folder beyond the previously reviewed technical notes, including SFMC courses, migration case studies, additional administration learning, secure CloudPages/API examples, and other source material.
 - Added **33 independently authored, generalized Q&A** (21 migration/secure integration and 12 bulk-import/SFTP/contact-delete scenarios) to **Migration, delivery & secure integration case studies**.
