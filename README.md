@@ -23,3 +23,9 @@ Independent interview-first learning resource for Salesforce Marketing Cloud Eng
 Modular question files, automated link and quality checks, revision modes, accessibility, SEO and eventual custom domain.
 
 Independent educational project; not affiliated with Salesforce.
+
+## Quality control (added in v3.6)
+
+- Read [QUALITY_AUDIT.md](QUALITY_AUDIT.md) for findings, verified reference topics, and open risks.
+- Run `python3 scripts/validate_handbook.py` before every release to check embedded content structure, duplicate IDs/titles, missing references and obvious credential patterns.
+- Passing structure checks does not prove that 683 Q&A or 101 URLs have been individually fact-checked or that external links resolve.
