@@ -1,32 +1,25 @@
 # SFMC Architecture Handbook
 
-A public, independent, interview-first reference for Salesforce Marketing Cloud Engagement architecture, configuration, implementation, troubleshooting, and technical consulting.
+Independent interview-first learning resource for Salesforce Marketing Cloud Engagement.
 
-## Access the handbook
+## Access
+- Open `index.html` locally for the self-contained offline handbook.
+- To host it, enable GitHub Pages: Settings → Pages → Deploy from a branch → main → /(root).
+- Expected public URL: https://pankajgupta0299.github.io/sfmc-architect-handbook/
 
-- Open **index.html** to read the complete self-contained handbook offline.
-- After enabling GitHub Pages (Settings → Pages → Deploy from a branch → main → /(root)), use: `https://pankajgupta0299.github.io/sfmc-architect-handbook/`
+## Current coverage
+- **552 interview Q&A across 25 chapters.**
+- The **Implementation field notes & deep-dive scenarios** chapter incorporates generalized learning from an initial review of technical study notes and implementation artifacts.
+- Private Google Drive sources have **not** been copied to this public repository.
 
-## Current content
+## Editorial principles
+- Source notes and historical tenant observations are not automatically authoritative product rules.
+- Distinguish official behavior, architecture recommendations and fictional use cases.
+- Cross-check platform-specific details with current Salesforce docs and available tenant behavior.
+- Never publish customer names, private contact details, credentials, internal URLs, confidential code or proprietary case studies.
+- The Q&A library is not fully audited or guaranteed to be completely accurate; production use requires independent validation.
 
-The initial standalone build contains 526 interview questions and answers across 24 chapters, including technical foundations, implementation and configuration, scenarios, troubleshooting, and emerging Salesforce marketing products.
+## Future evolution
+Modular question files, automated link and quality checks, revision modes, accessibility, SEO and eventual custom domain.
 
-## Content principles
-
-- Generic, educational examples — no private or client-confidential information.
-- Reference Salesforce documentation and Trailhead where possible.
-- Clearly distinguish supported product behavior from recommended architecture patterns and fictional examples.
-- Marketing Cloud product features, limits, licenses, and names can change; verify critical implementation decisions against current official documentation.
-- Interview-focused answers should explain **what**, **why**, **how**, **trade-offs**, **test cases**, and **what can fail**.
-
-## Using it offline
-
-Download **index.html** and open it in any modern browser. No build step, backend, third-party CDN, or deployment is required.
-
-## Future direction
-
-Move toward separately maintained versioned question data, automated content-validation tests, accessibility, SEO, study plans, and optional custom domain. GitHub remains the source of truth.
-
-## Disclaimer
-
-This is an independent educational project and is not affiliated with or endorsed by Salesforce. Salesforce and related product names belong to their respective owners.
+Independent educational project; not affiliated with Salesforce.
