@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.4.0 — 2026-11-13
+- Reviewed the Data Cloud overall learning notes and reference bookmarks from the private Salesforce Google Drive folder, plus the Salesforce Summer '24 Data Cloud Admin Implementation Guide.
+- Added **38 original, generalized interview Q&A** under **Data 360 architecture, identity & activation labs**.
+- Topics: provisioning and data spaces; ingestion and data streams; DLO, DMO and the Customer 360 data model; identity resolution, matching and reconciliation; insights; segmentation; activation; operational monitoring; costs; and Agentforce integration boundaries.
+- Total: **647 questions in 28 chapters**.
+- Data Cloud / Data 360 names and feature availability are subject to product evolution and entitlement. Older learning observations have not been treated as guaranteed present-day capabilities.
+- The large training PDFs and the entire large notes document were not exhaustively audited. Further verification and source-link checks remain required before commercial publication.
+
 ## 3.3.0 — 2026-11-12
 - Reviewed a selection of Google Drive Marketing Cloud Personalization / Interaction Studio discovery, implementation, sitemap, identity, template, Event API, and case study material.
 - Added **33 newly authored, generalized interview Q&A** under **Personalization architecture & implementation labs**.
