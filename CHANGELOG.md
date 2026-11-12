@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.6.0 — 2026-11-13
+- Started the systematic quality and publication-readiness audit of all 683 Q&A and 29 chapters.
+- Resolved four exact repeated question titles by rewriting second occurrences as distinct implementation/troubleshooting topics, preserving all question IDs.
+- Deepened three existing answers (SQL CAST/CONVERT, AMPscript Concat, CloudPages encrypted-link security) with examples and risk caveats.
+- Added a reusable structural validation script at `scripts/validate_handbook.py` and a transparent `QUALITY_AUDIT.md` with completed checks and outstanding requirements.
+- Confirmed 101 distinct reference URL values and 0 missing `ref` fields; full link-resolution and per-question factual audit remain open.
+- Question count intentionally remains **683**. Existing saved question IDs remain stable.
+
 ## 3.5.0 — 2026-11-13
 - Reviewed private Salesforce Drive notes on MobilePush implementation, Marketing Cloud Connect integration, and SFMC administrator setup; the MobileConnect notes file had no readable content.
 - Added **36 original, generalized Q&A** in **Mobile Studio & CRM integration architecture labs**.
