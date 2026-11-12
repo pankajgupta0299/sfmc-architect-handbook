@@ -8,7 +8,7 @@ Independent interview-first learning resource for Salesforce Marketing Cloud Eng
 - Expected public URL: https://pankajgupta0299.github.io/sfmc-architect-handbook/
 
 ## Current coverage
-- **716 interview Q&A across 30 chapters.**
+- **736 interview Q&A across 30 chapters.**
 - The **Implementation field notes & deep-dive scenarios** chapter incorporates generalized learning from an initial review of technical study notes and implementation artifacts.
 - Private Google Drive sources have **not** been copied to this public repository.
 
@@ -28,4 +28,4 @@ Independent educational project; not affiliated with Salesforce.
 
 - Read [QUALITY_AUDIT.md](QUALITY_AUDIT.md) for findings, verified reference topics, and open risks.
 - Run `python3 scripts/validate_handbook.py` before every release to check embedded content structure, duplicate IDs/titles, missing references and obvious credential patterns.
-- Passing structure checks does not prove that 683 Q&A or 101 URLs have been individually fact-checked or that external links resolve.
+- Passing structure checks does not prove that 736 Q&A or 101 URLs have been individually fact-checked or that external links resolve.
