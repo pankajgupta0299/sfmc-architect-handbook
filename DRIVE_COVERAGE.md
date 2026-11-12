@@ -2,7 +2,7 @@
 
 **Inventory snapshot:** 2026-11-13  
 **Source folder:** Private Google Drive folder named `Salesforce`  
-**Public handbook:** 704 Q&A in 30 chapters (v3.7)  
+**Public handbook:** 716 Q&A in 30 chapters (v3.7)  
 **Confidentiality policy:** Do **not** publish source-document URLs, Google file identifiers, internal account references, client names, personal certificates/resumes, credentials, or verbatim proprietary training material.
 
 ## Reading this register
@@ -37,12 +37,12 @@
 | Preference Center | v3.1 synthesized design patterns | Audit edge cases and consent resubscribe security before commercial use |
 | SFMC administration and send reputation | v3.1 + v3.5 + v3.7; an additional Udemy-style admin note reviewed in v3.7 | Full audit of send authentication, deliverability and changing limits |
 | HubSpot / Pardot migration materials | Some implementation framework, SOW and migration discovery material reviewed, v3.7 Q&A added | Full field-by-field migration checklist and test cases |
-| CloudPages/API POC folder | Implementation guide reviewed v3.7 | Two local POC HTML files remain to inspect and sanitize |
+| CloudPages/API POC folder | Implementation guide reviewed v3.7 | Two POC HTML files inspected for general architecture risks; implementation-level code review remains |
 | SFMC seven course collections | All seven named course folders located. Screenshots/exercises nested below them | Predominantly screenshot/third-party coursework; inventory, rights check and synthesis only |
 | SFMC client case studies, SOW, requirements | Several docs reviewed v3.7 | Additional case studies and client documents pending; no disclosure of clients |
 | SFMC developer learning path | Surveyed; largely role/phase and third-party course links | Original learning pathway can be synthesized; no licensed copying |
 | SFMC IP warming / edition feature sheets | Folder contents inventoried; partially represented conceptually | Check Salesforce's current editions/contract instead of publishing historical pricing claims |
-| SFTP, bulk import, child-BU delete snippets | Identified in SFMC root; not fully integrated | Secure architecture and implementation review |
+| SFTP, bulk import, child-BU delete snippets | First-pass concepts integrated in v3.7 | Deeper code/security audit and tenant-specific testing remain |
 
 ## Interaction Studio register
 
@@ -84,7 +84,7 @@
 
 ## Suggested remaining batch order
 
-1. SFTP/bulk import/SSJS delete and CloudPages POC secure patterns.
+1. Additional secure API POC and contact deletion examples (first pass integrated; deeper script review pending).
 2. Remaining client-neutral migration and architecture deliverables.
 3. Advanced Personalization templates and Data 360 cohort materials.
 4. Marketo cross-platform migration and comparison.
