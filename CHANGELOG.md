@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.3.0 — 2026-11-12
+- Reviewed a selection of Google Drive Marketing Cloud Personalization / Interaction Studio discovery, implementation, sitemap, identity, template, Event API, and case study material.
+- Added **33 newly authored, generalized interview Q&A** under **Personalization architecture & implementation labs**.
+- Added architect-level coverage of dataset design, catalogs and related catalog objects, website sitemaps, SPA transitions, user identification, event capture, segments, recipes, web templates, controls, stats tracking, API events, SFMC activation, and troubleshooting.
+- Converted real client scenarios into **fictional, non-identifying learning examples**; did not publish the underlying documents, site-specific code, company names or proprietary information.
+- Totals: **609 Q&A across 27 chapters**.
+- Further Personalization source files and large attachments remain for potential later review. Official reference links should be periodically audited for changes.
+
 ## 3.2.0 — 2026-11-12
 - Reviewed additional Google Drive notes in the AMPscript, SQL, and SSJS learning folders, including example snippets and implementation-oriented use cases.
 - Added **24 independently authored, generalized questions** in a dedicated **AMPscript, SQL & SSJS coding scenarios** chapter.
