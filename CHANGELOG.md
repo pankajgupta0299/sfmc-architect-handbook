@@ -1,3 +1,8 @@
+## 4.14.0 — 2026-11-13
+- Audited 36 remaining interview introductions, documentation/discovery examples, whiteboard scenarios and rapid revision questions.
+- Clarified that abandoned-cart goals do not guarantee in-flight cancellation; removed unsupported 'most tested' AMPscript/SSJS statistical claims in favor of practical study lists.
+- **570/736 source-checked, 166 pending**, primarily deep implementation labs, integration notes and migration delivery scenarios. Full code execution, reference resolution and live website tests still open.
+
 ## 4.13.0 — 2026-11-13
 - Audited 25 migration/Marketing Cloud Personalization questions and 31 Data 360/Marketing Cloud Next questions (56 additional targeted checks).
 - Removed first-person/owner-specific migration claims, clarified email sender IP warm-up, dated Salesforce Data Cloud → Data 360 rebrand (October 14, 2025), and corrected Model Context Protocol vs Marketing Cloud Personalization abbreviation confusion.
