@@ -272,3 +272,14 @@ A **PASS** indicates basic structural consistency, not verified content accuracy
 **Repository integrity:** In-memory checks previously found 736 unique IDs, 30 valid chapter references, all review metadata populated and HTTPS references syntactically valid. Execution of the standalone Python validator and CI workflow has not been confirmed; no such execution is claimed here.
 
 **No scheduled ChatGPT automation was created.**
+
+## v4.18.0 — Drive knowledge gap and separate learning experiences (2026-11-13)
+
+- A targeted source pass considered readable SFMC administration, MCC/CRM, SQL/SSJS, preference-center, mobile messaging, Data 360 and development learning pathway documents. Empty/no-text native notes and private/client-specific materials are not claimed to be completely reviewed.
+- Six new financial-services MobilePush/in-app architecture scenarios were independently written from high-level source topics and aligned with official Salesforce Engagement SDK configuration, registration and push documentation.
+- Two new Q&A and two synthetic cases fill gaps around Marketing Cloud Engagement Distributed Marketing and Marketing Cloud Advertising (formerly Advertising Studio); scope and feature distinctions were compared against Salesforce Help.
+- **Canonical handbook: 746 questions in 30 chapters, 78 use cases with kind=case, 205 distinct HTTPS reference strings, all 746 with scoped source_checked records.** Previously completed 736-question review remains unchanged.
+- Separate self-contained use-cases.html provides 78 searchable and categorized source-linked cases with shared bookmarks. Separate learning-path.html has four tracks and 20 linked steps.
+- Verified in-memory that all 746 question IDs are unique, all question review fields are present, all linked practice cases and learning-path chapter IDs exist, and the case bank equals the canonical kind=case subset. This is a structural inspection, not a Salesforce tenant test or deployed browser verification.
+- Added scripts/sync_use_cases.py for deterministic regeneration and --check parity validation. Existing content validation and repository workflows can run the check on future commits.
+- Specific Drive text retrieval blockers and privacy/licensing exclusions are documented in DRIVE_COVERAGE.md. This pass is not a claim of reading every Google Drive source file or of guaranteed future product accuracy.
