@@ -54,3 +54,29 @@ python3 scripts/validate_handbook.py
 ```
 
 A **PASS** indicates basic structural consistency, not verified content accuracy.
+
+## Phase 2 — High-risk technical review, Round 1 (2026-11-13)
+
+**Completed:** 21 existing question answers were rewritten or clarified and tagged in the embedded question data with:
+
+```json
+"review": {"status":"source_checked","date":"2026-11-13","scope":"answer-specific high-risk platform rules"}
+```
+
+**Reviewed areas:** unsubscribe behavior and status scopes, Salesforce Marketing Cloud Connect differences, Multi-Org topology and prerequisites, Synchronized Data Sources in Multi-Org, Contact Delete enterprise scope / asynchronous operations / non-reversibility, OAuth client-credentials token lifetime, and AMPscript `LookupOrderedRows` limits.
+
+**Main corrections/qualifications:**
+
+- Do not equate every publication-list unsubscribe with global unsubscribe; Enterprise 2.0 BU unsubscribe settings differ, and MCC-connected unsubscribe has its own constraints.
+- Do not state a Contact Delete `OperationID` proves deletion finished; poll status, validate enterprise scope, and recognize the operation can't be rolled back once initiated.
+- Do not confuse Multi-Org with creating another BU or a second independent Engagement enterprise account; document supported BU-to-CRM topology, connection/user-mapping consequences and custom profile-center requirements.
+- SFMC server-to-server OAuth has a 20-minute actual token lifetime, with `expires_in=1080` seconds as a suggested buffer.
+- AMPscript lookup rowsets have documented row caps; use SQL/batch data engineering for bulk processing.
+
+**Source grounding:** Compared the affected claims with Salesforce developer documentation and Salesforce Help records or official reference pages. The individual Q&A retains a relevant Salesforce URL in `ref`. In this audit, `source_checked` means the high-risk claim was compared with source information; it does **not** certify all aspects of that answer or confirm that its URL remains resolvable forever.
+
+**Coverage:** 21 / 736 Q&A tagged `source_checked`; 715 are **not yet individually checked in this phase**. Existing 736 IDs were preserved. Question count remains 736; chapters remain 30.
+
+**Next review groups:** remaining consent and send classification questions; Contact Builder identity and Contact Delete edge cases; API error/retry and security implementation; SQL/AMPscript/SSJS code examples; Multi-Org deployment procedure; MobileConnect/MobilePush country and SDK constraints; Data 360 and Personalization capabilities.
+
+**Still open:** automated full-link resolution, browser end-to-end checks, code execution against an SFMC sandbox, tenant/license-specific validation and comprehensive fact review. Avoid claiming this handbook is 100% accurate until these are completed.
