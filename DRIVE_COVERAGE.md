@@ -113,7 +113,7 @@
 | Preference-center implementation notes | Long client-specific HTML and server-side logic | Generic subscription, security and CloudPages designs already included; client source code and questionable account-specific subscriber behaviors excluded |
 | Data 360 notes | Readable ingestion/modeling, identity, insights and activation notes with historical permission/cost assumptions | Existing Data 360 chapters cover reusable concepts; old entitlements and limits not promoted to current product guarantees |
 | Developer learning pathway | Readable reference topic list | Added four-track, 20-step public Learning Path linking canonical chapters with matching practice cases |
-| Two direct Use Cases Google Docs (SFMC and Personalization) | Both returned zero extractable paragraphs in text retrieval | **Not fully processed or claimed integrated**; further treatment would require readable export or visual access to embedded content |
+| Two direct Use Cases Google Docs (SFMC and Personalization) | Text retrieval returned zero paragraphs, and native Google Docs structure inspection found only an empty paragraph with no embedded objects | These two current documents appear blank; no further knowledge could be extracted from them |
 | Client sitemaps/templates, code archives, licensed training PDFs/ZIPs | Located, several contain confidential implementation details or protected third-party course content | Not republished; generic technical concepts already represented by independent, officially sourced entries |
 | Screenshot-only training folders | Previous inventory counted 1,355 screenshot entries; not a full recursive file count | Not individually transcribed, OCR-processed or reproduced for copyright and usefulness reasons |
 
@@ -127,7 +127,7 @@
 ### Source limitations and recommended handling
 
 1. No exhaustive recursive Drive-wide inventory or assertion that every original source file was fetched.
-2. Some source documents returned no extractable text. Their substantive contents cannot be verified with the available text connector.
+2. The two use-case documents returned no text and native structure inspection found only blank paragraphs. Other files and archives may still have retrieval limitations.
 3. Legacy tenant observations are useful for hypotheses, not current product guarantees; official release-specific Salesforce documentation takes precedence.
 4. Proprietary course screenshots, customer deliverables, credential-bearing examples and private identifiers stay excluded from this public resource.
 5. Only when a genuinely new, publishable concept emerges from a permitted source should it be independently rewritten, officially source-checked and added.
