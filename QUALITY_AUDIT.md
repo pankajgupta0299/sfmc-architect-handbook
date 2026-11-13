@@ -182,3 +182,9 @@ A **PASS** indicates basic structural consistency, not verified content accuracy
 - Checked 21 `docs-*` questions for architecture documentation and governance alignment with Salesforce Well-Architected Intentional guidance. Document formats and sample acceptance criteria are recommendations, not Salesforce platform requirements.
 - Checked `discovery-16` and `discovery-17` for MobileConnect STOP/country considerations and mobile SDK registration concerns, respectively; changed their reference starting URLs.
 - **283/736 source-checked; 453 remaining.** This is an editorial review, not a live tenant verification or comprehensive link audit.
+
+## Enterprise architecture and contact data model audit — 2026-11-13 (v4.7)
+
+- Compared 20 additional enterprise/discovery questions with Salesforce Marketing Cloud Connect Multi-Org / BU guidance, REST account context and authenticated sender-domain guidance; adjusted specific statements and reference starting points.
+- Compared 32 additional Contact Builder / data questions with Salesforce Contact Management Trailhead, Data Designer/Population configuration, Contact Delete guidelines, data retention help and SQL Query Activity troubleshooting support articles. Key corrections: population 1:1 constraints, avoid >3 populations, DE retention distinct from system tracking retention, contact deletion not implied by DE removal, SQL activity metadata re-save after DE schema changes.
+- **335/736** individual source-check markings, **401 pending**. Source-check markings represent documentation/editorial comparison, not live tenancy tests. Full URL health and direct source relevance remain to be completed across the bank.
