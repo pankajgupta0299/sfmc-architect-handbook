@@ -1,3 +1,10 @@
+## 4.18.1 — 2026-11-13
+- Completed a further targeted gap assessment of accessible historical SFMC implemented-use-case examples and Marketing Cloud Personalization client/server web template notes, without publishing confidential source records.
+- Added three original architecture cases for secure form acknowledgment, CRM Campaign Member engagement status updates and measurable Email Studio A/B testing.
+- Added two developer Q&A on Personalization apply/control/reset and Campaign Stats Gear, plus an associated asynchronous web template use case, cross-checked against Salesforce developer guidance.
+- Updated canonical and standalone libraries to **752 Q&A / 30 chapters / 82 cases** and **209 distinct HTTPS references**; existing IDs and shared bookmarks preserved.
+- Updated the coverage register and audit notes. Screenshot-only licensed training materials, empty native Docs and private code are not claimed fully extracted.
+
 ## 4.18.0 — 2026-11-13
 - Expanded the public handbook to **746 Q&A across 30 chapters**, including **78 independently written, source-referenced use cases**.
 - Created a dedicated `use-cases.html` with categorized case search, difficulty filter, sources and bookmarks synchronized with the main handbook.
