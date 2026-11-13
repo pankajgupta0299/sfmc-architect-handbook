@@ -1,3 +1,9 @@
+## 4.13.0 — 2026-11-13
+- Audited 25 migration/Marketing Cloud Personalization questions and 31 Data 360/Marketing Cloud Next questions (56 additional targeted checks).
+- Removed first-person/owner-specific migration claims, clarified email sender IP warm-up, dated Salesforce Data Cloud → Data 360 rebrand (October 14, 2025), and corrected Model Context Protocol vs Marketing Cloud Personalization abbreviation confusion.
+- Strengthened generic learning-stage interview examples without implying personal production experience.
+- **534/736 source-checked, 202 pending.** Tenant tests, source-link health, complete source-specific migrations and live website checks not independently verified.
+
 ## 4.12.0 — 2026-11-13
 - Source-checked 31 CloudPages, AMPscript and SSJS Q&A with Salesforce Engagement script references.
 - Corrected AMPscript `Empty()`/`IsNull()`/`IsNullDefault()` distinctions; specifically, `IsNullDefault` is for Smart Capture/Sites form-field defaulting, not a universal null-test function.
