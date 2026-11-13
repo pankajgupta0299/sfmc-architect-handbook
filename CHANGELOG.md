@@ -1,5 +1,15 @@
 # Changelog
 
+## 4.2.0 — 2026-11-13
+- Extended source-grounded technical answer review to **184/736 questions (25%)** across all 30 chapters.
+- Updated Data 360 identity, DLO/DMO mapping, contact-point handling and zero-copy federation caveats.
+- Verified Personalization sitemap, web/server template, stats-tracking, flicker, and authenticated Event API design.
+- Reviewed MobilePush registration/identity, MobileConnect STOP rules, SQL Activity write-mode/timeout/data-view behavior and Marketing Cloud Connect IER and CRM function differences.
+- Generalized older personal project narratives for public distribution.
+- Confirmed no duplicate question IDs/titles or missing chapter mapping in the updated library.
+- Corrected the Python validator's review-date regex; added question review-status validation and a GitHub Actions structural check workflow.
+- **166 distinct reference URLs** inventoried; full link checks, browser tests, workflow-run verification and tenant code tests are still outstanding.
+
 ## 4.0.0 — 2026-11-13
 - Continued targeted documentation-based accuracy review: **97 of 736 Q&A** now have individual `source_checked` metadata; 639 remain without such an individual check.
 - Corrected terminology distinguishing universal/BU unsubscribe from Salesforce system-wide Global Unsubscribe.
