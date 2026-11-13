@@ -2,7 +2,7 @@
 
 **Inventory snapshot:** 2026-11-13  
 **Source folder:** Private Google Drive folder named `Salesforce`  
-**Public handbook:** 736 Q&A in 30 chapters (v3.8)  
+**Public handbook:** 746 Q&A in 30 chapters, including 78 use cases (v4.18.0)  
 **Confidentiality policy:** Do **not** publish source-document URLs, Google file identifiers, internal account references, client names, personal certificates/resumes, credentials, or verbatim proprietary training material.
 
 ## Reading this register
@@ -99,3 +99,37 @@
 - Source review expanded to CloudPages/REST POC HTML files, a bulk CSV import script, child-BU delete script, migration roadmaps, suppressions, lifecycle journeys and source/client Q&A. Only generalized original interview learning is published.
 - Screenshot-only course folders: 1,355 file entries enumerated. These were not OCR-processed, fact-checked or republished. This count excludes potential exercise descendants and does not prove an exhaustive all-folder file count.
 - A full recursive count across every nested source folder is **not yet established**. Never report 100% coverage on this evidence.
+
+## Additional knowledge-gap pass — 2026-11-13 (v4.18.0)
+
+**Status:** Targeted harmonization of readable, useful concepts completed. This is not an exhaustive raw-file extraction of the entire private Drive.
+
+| Private source grouping | Assessment | Public outcome |
+| --- | --- | --- |
+| Mobile app messaging planning | Readable outline and examples for financial-services notifications | Six new synthetic bank alerts, fraud, payment, appointment, offer and onboarding cases; terminology checked against the official Salesforce Engagement SDK |
+| SFMC administration learning notes | Readable, includes legacy product topics absent from the handbook | Two new Q&A on Distributed Marketing and Marketing Cloud Advertising, plus two new corresponding synthetic use cases, with current Salesforce documentation references |
+| MCC and CRM integration notes | Readable legacy setup, user roles, Multi-Org and synchronized-data guidance | Existing integration and enterprise chapters cover key concepts; historical tenant constraints and turnaround estimates not copied as universal facts |
+| SQL and SSJS notes and examples | Readable core language learning, sample queries and developer scripts | Useful patterns already covered in SQL and developer labs; client identifiers and legacy script snippets excluded |
+| Preference-center implementation notes | Long client-specific HTML and server-side logic | Generic subscription, security and CloudPages designs already included; client source code and questionable account-specific subscriber behaviors excluded |
+| Data 360 notes | Readable ingestion/modeling, identity, insights and activation notes with historical permission/cost assumptions | Existing Data 360 chapters cover reusable concepts; old entitlements and limits not promoted to current product guarantees |
+| Developer learning pathway | Readable reference topic list | Added four-track, 20-step public Learning Path linking canonical chapters with matching practice cases |
+| Two direct Use Cases Google Docs (SFMC and Personalization) | Both returned zero extractable paragraphs in text retrieval | **Not fully processed or claimed integrated**; further treatment would require readable export or visual access to embedded content |
+| Client sitemaps/templates, code archives, licensed training PDFs/ZIPs | Located, several contain confidential implementation details or protected third-party course content | Not republished; generic technical concepts already represented by independent, officially sourced entries |
+| Screenshot-only training folders | Previous inventory counted 1,355 screenshot entries; not a full recursive file count | Not individually transcribed, OCR-processed or reproduced for copyright and usefulness reasons |
+
+### Public assets after this pass
+
+- Main handbook: **746 Q&A, 30 chapters, 78 case-classified entries, 205 distinct HTTPS documentation references**.
+- Separate use-cases.html: **78** source-linked, searchable public cases across seven practice areas, using the same record IDs and saved bookmarks.
+- Separate learning-path.html: **four tracks with 20 steps** and verified chapter/case links.
+- scripts/sync_use_cases.py: maintenance check ensuring the standalone case data matches the canonical kind=case records.
+
+### Source limitations and recommended handling
+
+1. No exhaustive recursive Drive-wide inventory or assertion that every original source file was fetched.
+2. Some source documents returned no extractable text. Their substantive contents cannot be verified with the available text connector.
+3. Legacy tenant observations are useful for hypotheses, not current product guarantees; official release-specific Salesforce documentation takes precedence.
+4. Proprietary course screenshots, customer deliverables, credential-bearing examples and private identifiers stay excluded from this public resource.
+5. Only when a genuinely new, publishable concept emerges from a permitted source should it be independently rewritten, officially source-checked and added.
+
+**Acceptance:** Targeted, publicly publishable concept gap remediation is complete. An exhaustive extraction of all private and third-party files is explicitly not claimed.
