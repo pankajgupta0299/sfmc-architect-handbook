@@ -1,3 +1,9 @@
+## 4.17.0 — 2026-11-13
+- **Marked the documentation-alignment task COMPLETE** under the user's explicitly accepted scope. Live Salesforce org execution, device/carrier testing and browser tests are out of scope, rather than remaining project blockers.
+- Retained **736/736 editorial source-checked Q&A across 30 chapters** and 202 distinct reference URLs; clarified the difference between documented editorial alignment and unverified link-by-link resolution / absolute production correctness.
+- Final representative cross-checks against official sources confirmed AMPscript IsNullDefault for Smart Capture, Personalization Catalog eligibility, MobileConnect STOP-keyword scope and the Data 360 rebrand.
+- Updated README and audit status; retained historical audit caveats and optional future maintenance notes. No scheduled automation created.
+
 ## 4.16.1 — 2026-11-13
 - Follow-up source-specific spot check corrected two Marketing Cloud Personalization catalog answers with explicit Product recommendation eligibility: valid name/URL, active/unexcluded/current publication, positive price and inventory, image URL.
 - Re-checked representative source links including AMPscript IsNullDefault, RaiseError and ClaimRow, Personalization Sitemap and Catalog, WSProxy pagination, Data 360 object model, OAuth rate limiting, and Model Context Protocol official spec.
