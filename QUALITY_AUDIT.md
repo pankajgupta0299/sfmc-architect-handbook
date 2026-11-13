@@ -237,3 +237,11 @@ A **PASS** indicates basic structural consistency, not verified content accuracy
 - 36 source/context editorial comparisons covering interviews, whiteboard scenarios, architectural trade-offs and rapid review against Salesforce Well-Architected, supported integration and relevant product reference material.
 - Corrected overly categorical cart-purchase cancellation language; removed unsupported ranking of most-frequently-tested scripting topics and presented them as useful study shortlists.
 - **570/736** checked; **166** remain, concentrated in field notes, code/personalization/Data 360 labs, mobile integrations and migration delivery. This source-check status is not equivalent to running a technical lab.
+
+## Deep technical labs audit — 2026-11-13 (v4.15)
+
+- Checked 26 field notes against Salesforce CloudPages/consent, SQL, WSProxy, mobile SDK and Personalization guidance; corrected that true Marketing Cloud global unsubscribe cannot be reversed by an Engagement account and that SQL deduplication needs a stable final tie-breaker.
+- Checked 17 AMPscript/SSJS/SQL code labs, including ClaimRow, ClaimRowValue, RaiseError, WSProxy and SQL Query Activity. Coupon DE names must be hard-coded in the claim functions; no code lab was executed in a tenant.
+- Checked 21 Personalization web SDK/catalog/identity labs; clarified SPA route lifecycle and legacy/current SDK namespace differences.
+- Checked 23 Data 360 identity/insight/activation labs, qualifying historical permission-set guidance and Unified Individual ID stability.
+- **657/736 reviewed; 79 pending.** Editorial source-checking is not a code-certification test.
