@@ -195,3 +195,12 @@ A **PASS** indicates basic structural consistency, not verified content accuracy
 - Clarified REST/SOAP differences and SFTP as a bulk transport, `_Salesforce_n` naming and minimization of sync fields, request authentication and throttling, and external event receiver patterns.
 - Updated generic Shopify abandoned-checkout case to avoid personal-project wording; Shopify-specific webhook signatures and checkout API behavior have not been independently certified by this Salesforce-only source check.
 - **348/736 checked, 388 pending.** Source checking is editorial and does not imply integration execution or end-to-end verification.
+
+## Journey, SQL, Email and structural audit — 2026-11-13 (v4.9)
+
+- Reviewed 11 Journey Builder questions against Salesforce Journey Entry Sources, Date-Based events, versioning, Goals/Exit Criteria and API guidance.
+- Reviewed 16 SQL/Automation Studio questions against Salesforce SQL Query Activity, Automation Studio, File Transfer/decryption and backup documentation. Explicitly removed implied support for ad hoc SQL <code>@start</code> parameters in query examples.
+- Reviewed 6 Email Studio questions against Salesforce send classification and preview references, email auth standards, and Apple privacy documentation.
+- Eliminated two direct references to a person's private repository or personal work in generic case-study answers; the underlying illustrative concepts remain.
+- In-memory validation of the embedded question JSON: 736 records, 30 chapters, zero duplicate question IDs, no missing chapter targets or required nonempty id/question/answer/reference, HTTPS references formatted. This does **not** verify URL availability or execute the Python validator/CI.
+- **381/736** question records marked source-checked; **355** awaiting individual editorial review.
