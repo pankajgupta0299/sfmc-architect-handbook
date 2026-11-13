@@ -283,3 +283,11 @@ A **PASS** indicates basic structural consistency, not verified content accuracy
 - Verified in-memory that all 746 question IDs are unique, all question review fields are present, all linked practice cases and learning-path chapter IDs exist, and the case bank equals the canonical kind=case subset. This is a structural inspection, not a Salesforce tenant test or deployed browser verification.
 - Added scripts/sync_use_cases.py for deterministic regeneration and --check parity validation. Existing content validation and repository workflows can run the check on future commits.
 - Specific Drive text retrieval blockers and privacy/licensing exclusions are documented in DRIVE_COVERAGE.md. This pass is not a claim of reading every Google Drive source file or of guaranteed future product accuracy.
+
+## v4.18.1 — Additional use-case coverage and web-template lifecycle (2026-11-13)
+
+- Source assessed readable historical implementation case studies and Personalization web/server-side template learning notes, without republishing client identity or source code.
+- Added three synthetic SFMC implementation cases (secure form acknowledgment/CRM alert, CRM Campaign Member engagement status and defensible A/B testing), plus two technical Q&A and one new Personalization case about template apply/control/reset, Promise-based impression timing and campaign stat data attributes.
+- Platform assertions aligned with Salesforce Campaign Member Activity, Email Studio A/B Testing, Personalization Template Client JavaScript and Campaign Stats Tracking documentation; complex vendor/tenant configurations remain illustrative rather than guaranteed.
+- **Now 752 questions, 30 chapters, 82 public use cases, 209 unique HTTPS reference strings, all with scoped source_checked metadata.** The standalone case library was regenerated from canonical kind=case records. Question IDs from previous versions remain stable.
+- Source-specific gaps and licensed/private exclusions remain in DRIVE_COVERAGE.md; a full recursive Google Drive extraction was not necessary or claimed for this scoped public-learning project.
