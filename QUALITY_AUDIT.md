@@ -108,3 +108,29 @@ A **PASS** indicates basic structural consistency, not verified content accuracy
 - Updated the validator to enforce the shape of question-level review metadata.
 - The public site now shows the source-checked count and per-question status. That label signals a targeted documentation comparison, **not** complete verification, legal certification, delivery testing, or guaranteed current license availability.
 - The validation script does not call Salesforce documentation or execute AMPscript/SQL/SSJS. Full reference URL checks, automated browser tests and tenant-specific execution are still open.
+
+## Phase 2 — Additional accuracy passes (2026-11-13, v4.2)
+
+**Current answer-level source-check coverage: 184 of 736 (25%).** The remaining **552** questions have not received an individual source-check tag in this review. There are **166 unique reference URL values** in the current question bank; these are inventoried but not exhaustively tested for HTTP resolution, redirects or answer-level relevance.
+
+### Newly reviewed topic groups
+
+- **Data 360:** DLO/DMO required mapping, identity resolution as unified views rather than MDM, preserved contact points, activation source priority and zero-copy federation limits.
+- **Personalization:** Web SDK sitemap and commerce page types, client and server web-template components, Display Utilities/Flicker Defender, tracking attributes and authenticated Event API requests.
+- **Mobile Studio:** Engagement SDK registration lifecycle, anonymous/known ContactKey strategy, orphaned device identities, device-token verification, in-app versus inbox messaging, and MobileConnect code-scoped STOP keywords.
+- **SQL / Automation:** target DE write modes, 30-minute Query Activity timeout guidance, source/target schema cache, data-view retention, primary-key collisions and incremental load practices.
+- **CRM / Marketing Cloud Connect:** eligible Individual Email Results send types, CRM tracking limitations, AMPscript `RetrieveSalesforceObjects()` and `UpdateSingleSalesforceObject()` contexts, read limits, SOAP send-time performance and preview side effects.
+
+### Security and content safeguards
+
+- A focused scan of the 736 Q&A detected no obvious hard-coded API secrets, named historical clients, or personal employer identifiers in the question bank, using the selected patterns. This is only a heuristic—not a full security scan of all repository history or external assets.
+- Personal experience claims in legacy Q&A were replaced with **clearly labeled fictional/example interview scripts** or generic architecture scenarios. Sample first-person text remains only when visibly labeled as a candidate template.
+- The public Q&A count and all existing question IDs remain unchanged to preserve local saved-question references.
+
+### Pending gates
+
+1. Check the resolution and relevance of the 166 source URLs with a network-enabled link-checking process. URLs were located from official documentation search results when editing some answers, but the full list hasn't been validated.
+2. Complete remaining 552 answer-level reviews, including product editions, jurisdiction-specific SMS and compliance, migration restrictions, license-specific features, documentation architecture and advanced SSJS/code examples.
+3. Execute representative code against an authorized test Engagement/Personalization/Data 360 tenant and verify platform-appropriate function availability and query results.
+4. Verify GitHub Actions workflow execution and a live GitHub Pages browser test; neither is yet confirmed by an end-to-end check.
+5. Have legal/security specialists review any production consent, deletion, credential or regulatory guidance before using it as an operational authority.
