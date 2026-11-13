@@ -3,7 +3,7 @@
 
 Usage: python3 scripts/validate_handbook.py
 Checks structure, schema, IDs, chapter membership, exact duplicate questions,
-reference syntax and common obvious credential patterns.
+reference syntax, editorial review metadata and common credential patterns.
 It DOES NOT verify external URLs or factual truth.
 """
 from __future__ import annotations
@@ -71,6 +71,28 @@ def main() -> int:
             warnings.append(f"Brief answer (may be intentional): {q.get('id')}")
         if re.search(r"(?:https?://)?(?:localhost|127\.0\.0\.1)(?::\d+)?", url, re.I):
             errors.append(f"Question {q.get('id')} has local-only reference")
+    # Editorial metadata is optional, but when present it must be well-formed.
+    checked = 0
+    for q in qs:
+        review = q.get("review")
+        if review is None:
+            continue
+        if not isinstance(review, dict):
+            errors.append(f"Question {q.get('id')} review metadata is not an object")
+            continue
+        status = review.get("status")
+        if status not in {"source_checked"}:
+            errors.append(f"Question {q.get('id')} has unknown review status: {status!r}")
+        if not re.fullmatch(r"20\\d{2}-\\d{2}-\\d{2}", str(review.get("date", ""))):
+            errors.append(f"Question {q.get('id')} has an invalid review date")
+        if not isinstance(review.get("scope"), str) or not review["scope"].strip():
+            errors.append(f"Question {q.get('id')} needs a clear review scope")
+        if status == "source_checked":
+            checked += 1
+    if checked and "Source-checked" not in html:
+        warnings.append("Question review statuses exist but are not visible in website UI")
+    print(f"Targeted source-checked answers: {checked} / {len(qs)}")
+
     for title, matches in titles.items():
         if len(matches) > 1:
             errors.append(f"Duplicate question title: {title} ({', '.join(matches)})")
