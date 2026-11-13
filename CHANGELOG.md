@@ -1,3 +1,8 @@
+## 4.10.0 — 2026-11-13
+- Source-checked 20 consent/security/governance questions against Salesforce Engagement publication/unsubscribe behavior, EU GDPR guidance, US FTC CAN-SPAM guidance, UK ICO DPIA guidance and Salesforce architecture patterns.
+- Corrected multi-channel permission assumptions, GDPR-versus-CAN-SPAM comparison and DPIA applicability. These sections are educational architecture summaries, not legal advice.
+- **401/736 source-checked, 335 pending.** Full URL health, Python validator execution, GitHub CI and Salesforce tenant behavior not independently verified.
+
 ## 4.9.0 — 2026-11-13
 - Source-checked 11 Journey Builder questions, 16 Automation Studio/SQL questions and 6 Email Studio questions (33 additional checks).
 - Corrected exact-date renewal entry behavior, active entry-source versioning, purchase exit checks, unsupported ad hoc SQL parameter assumptions, encrypted file imports, send classification and email open-rate privacy concerns.
