@@ -30,7 +30,7 @@ Independent educational project; not affiliated with Salesforce.
 - Run `python3 scripts/validate_handbook.py` before every release to check embedded content structure, duplicate IDs/titles, missing references and obvious credential patterns.
 - Passing structure checks does not prove that 736 Q&A or 130 URLs have been individually fact-checked or that external links resolve.
 
-## Editorial verification progress (v4.16)
+## Editorial verification progress (v4.16.1)
 
 - **736 of 736** questions have targeted `source_checked` status as of 2026-11-13; **0 still need individual review**.
 - **178 distinct reference URLs** are present; full URL-resolution and answer-specific source checks are not completed for every link.
