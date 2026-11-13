@@ -30,10 +30,10 @@ Independent educational project; not affiliated with Salesforce.
 - Run `python3 scripts/validate_handbook.py` before every release to check embedded content structure, duplicate IDs/titles, missing references and obvious credential patterns.
 - Passing structure checks does not prove that 736 Q&A or 130 URLs have been individually fact-checked or that external links resolve.
 
-## Editorial verification progress (v4.0)
+## Editorial verification progress (v4.2)
 
-- **97 of 736** answers are marked `source_checked` after targeted comparison with Salesforce documentation (2026-11-13). **639 remain without this individual status**.
-- The on-page question cards display a source-checked indicator and the homepage shows the current checked count.
-- GitHub Actions workflow `.github/workflows/validate-handbook.yml` is configured to run structural Python checks on push and pull requests. The success status of an actual workflow run has not been confirmed.
-- The **130 distinct reference URL values** reported in the v3.9 snapshot have not all been individually checked for URL resolution and relevance; later edits may change the distinct total.
-- See [QUALITY_AUDIT.md](QUALITY_AUDIT.md) for detailed status. A source-checked badge is not equivalent to executing the implementation in an SFMC tenant.
+- **184 of 736** answers are marked `source_checked` after targeted comparison with Salesforce/Adobe documentation (2026-11-13). **552 remain without an individual source-check tag.**
+- The handbook interface shows this status per question and its current total automatically.
+- **166 unique reference URLs** appear in the current question bank. Not every link has been checked for resolution, redirects or relevance to every statement.
+- A GitHub Actions workflow is configured for Python structural checks; its successful execution and the live Pages deployment are not yet independently verified.
+- Refer to [QUALITY_AUDIT.md](QUALITY_AUDIT.md) for topic coverage and limitations. A source check is not the same as testing an implementation in a licensed SFMC environment.
