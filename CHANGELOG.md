@@ -1,3 +1,9 @@
+## 4.15.0 — 2026-11-13
+- Source-checked 26 field notes, 17 scripting labs, 21 Personalization labs, and 23 Data 360 labs (87 questions).
+- Corrected Marketing Cloud global-unsubscribe resubscription limits, deterministic Lead/Contact deduplication, MobilePush identity transitions, coupon ClaimRow requirements, SPA sitemap lifecycle and Unified Individual identity stability.
+- **657/736 reviewed; 79 pending**, in MobileConnect/MobilePush integrations and migration/delivery labs.
+- Reviews compare guidance with Salesforce documentation; Salesforce tenant code execution, target-carrier validation, live SDK tests, exhaustive URLs and CI not independently verified.
+
 ## 4.14.0 — 2026-11-13
 - Audited 36 remaining interview introductions, documentation/discovery examples, whiteboard scenarios and rapid revision questions.
 - Clarified that abandoned-cart goals do not guarantee in-flight cancellation; removed unsupported 'most tested' AMPscript/SSJS statistical claims in favor of practical study lists.
