@@ -39,7 +39,7 @@ Independent educational project; not affiliated with Salesforce.
 - **209 distinct HTTPS reference URLs** are present. The documentation-level editorial review is complete; not every individual link was resolution-tested or evaluated for claim-by-claim specificity.
 - Recent corrections cover transactional/commercial classification, contact identity, Journey API events, IP policy, suppression types and the distinct data-view vs broader engagement retention periods.
 - **Project status: COMPLETE for the agreed documentation-alignment scope (2026-11-13).** Live SFMC tenant/code/carrier/device testing is explicitly out of scope, not a blocker. Periodic release/documentation refreshes are optional maintenance, not unfinished project work.
-- The earlier ChatGPT scheduled audit automation has been **disabled**. GitHub Actions structural validation remains a separate configured repository workflow; successful executions have not been verified.
+- The earlier ChatGPT scheduled audit automation has been **disabled**. GitHub Actions structural validation and GitHub Pages deployment both completed successfully for latest commit `3741b5c` on 2026-11-13 (see the release verification note below). The live public site has not been independently verified in a browser.
 - Review [QUALITY_AUDIT.md](QUALITY_AUDIT.md) for exact coverage, sources and limitations.
 
 ## Drive integration and maintenance
@@ -52,3 +52,11 @@ Independent educational project; not affiliated with Salesforce.
 
 - Evaluated an additional readable collection of anonymizable, historical SFMC implementation use cases plus Personalization template notes. Added three original cases for form acknowledgments, CRM Campaign Member engagement updates and Email Studio A/B testing; one new case and two Q&A for web-template client-side lifecycle and campaign statistics tracking.
 - Updated canonical and standalone libraries to **82 cases**. Customer-identifying source descriptions and raw code remain private; current Salesforce documentation is used for platform behavior.
+
+## Release verification — 2026-11-13
+
+- Latest inspected `main` commit: [`3741b5c`](https://github.com/pankajgupta0299/sfmc-architect-handbook/commit/3741b5cf6164e50b3e0070a4c9ac1e3b940af712) (v4.18.1).
+- [Handbook content validation](https://github.com/pankajgupta0299/sfmc-architect-handbook/actions/runs/43377578970): **success** on this commit. The workflow runs `scripts/validate_handbook.py` and `scripts/sync_use_cases.py --check`.
+- [GitHub Pages build and deployment](https://github.com/pankajgupta0299/sfmc-architect-handbook/actions/runs/43377579126): **success** on this commit.
+- The public Pages URL could not be fetched by the available external browser tool; therefore actual page rendering, accessibility, navigation behavior and live user-device functionality remain **unverified**, not failed.
+- These automated checks validate structural integrity and deployment status only; they do not establish the correctness of every technical claim, resolve all 209 reference URLs, or replace testing in an authorized Salesforce environment.
