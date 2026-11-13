@@ -224,3 +224,10 @@ A **PASS** indicates basic structural consistency, not verified content accuracy
 - Corrected misleading grouping of `IsNullDefault()` with generic null-testing functions: it provides defaulting for Smart Capture/Sites form values.
 - The reference comparison is not a claim that CloudPages offers production API gateway security or that all SSJS snippets have been run in a Salesforce tenant.
 - **478/736** reviewed; **258** remain.
+
+## Migration, Personalization, Data 360 and Next audit — 2026-11-13 (v4.13)
+
+- Reviewed 25 migration and Marketing Cloud Personalization questions against Salesforce Well-Architected/change governance, dedicated IP/SAP guidance, and Personalization Catalog/Sitemap developer guides.
+- Reviewed 31 Data 360 and Marketing Cloud Next questions against Salesforce Data 360 description, DLO/DMO mapping, Calculated Insights, Marketing Cloud Next product differences, and official Model Context Protocol specification.
+- Removed first-person migration and Next skills descriptions from generic technical answers; framed interview examples explicitly as samples. Data Cloud was renamed Data 360 on October 14, 2025.
+- **534/736** marked source-checked, **202 pending**, with tenant tests and full link resolution still open.
