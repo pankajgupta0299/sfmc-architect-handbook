@@ -1,3 +1,8 @@
+## 4.6.0 — 2026-11-13
+- Source-checked 23 further questions: all 21 documentation/governance questions and MobileConnect/MobilePush discovery questions.
+- Updated two mobile discovery reference links to topic-specific Salesforce documentation starting points.
+- Editorial coverage **283/736**, with **453** pending. No tenant testing, full URL-resolution audit or production behavior certification.
+
 ## 4.5.0 — 2026-11-13
 - Continued manual audit: 15 discovery and architecture-planning Q&A compared with Salesforce Well-Architected Intentional and Data Integration decision guidance.
 - Coverage now **260/736** targeted source checks, **476** remaining. Question IDs and chapter structure unchanged.
