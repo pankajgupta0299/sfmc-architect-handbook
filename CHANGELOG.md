@@ -1,3 +1,10 @@
+## 4.9.0 — 2026-11-13
+- Source-checked 11 Journey Builder questions, 16 Automation Studio/SQL questions and 6 Email Studio questions (33 additional checks).
+- Corrected exact-date renewal entry behavior, active entry-source versioning, purchase exit checks, unsupported ad hoc SQL parameter assumptions, encrypted file imports, send classification and email open-rate privacy concerns.
+- Removed two residual personal repository references from generic handbook examples.
+- Ran in-memory structural sanity checks: 736 unique question IDs, 30 valid chapters, no missing required fields or invalid HTTPS reference strings. This is not an execution of the repository's Python validator or a link-health test.
+- **381/736 source-checked; 355 pending.** GitHub Actions execution, website behavior, full link resolution and tenant testing unverified.
+
 ## 4.8.0 — 2026-11-13
 - Audited 13 further CRM/integration questions: REST versus SOAP scope, secure webhook ingestion, Marketing Cloud Connect synchronized DE naming, API throttling and generic abandoned-checkout pattern.
 - Corrected references to Salesforce API, Synchronized Data Sources and authentication/rate-limiting guidance; clarified that Shopify platform-specific webhook details require their own verification.
