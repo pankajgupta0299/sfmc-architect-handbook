@@ -29,3 +29,9 @@ Independent educational project; not affiliated with Salesforce.
 - Read [QUALITY_AUDIT.md](QUALITY_AUDIT.md) for findings, verified reference topics, and open risks.
 - Run `python3 scripts/validate_handbook.py` before every release to check embedded content structure, duplicate IDs/titles, missing references and obvious credential patterns.
 - Passing structure checks does not prove that 736 Q&A or 101 URLs have been individually fact-checked or that external links resolve.
+
+## Editorial verification progress (v3.9)
+
+- **21 of 736** interview answers have targeted high-risk technical claims source-checked against Salesforce documentation (2026-11-13).
+- The remaining **715 questions** are not yet individually reviewed in the current audit. Neither the answers nor 123 external reference URLs have been comprehensively verified.
+- See [QUALITY_AUDIT.md](QUALITY_AUDIT.md) for the exact scope and cautions. Source checks do not replace licensed-tenant testing or legal review.
