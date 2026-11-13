@@ -1,3 +1,8 @@
+## 4.5.0 — 2026-11-13
+- Continued manual audit: 15 discovery and architecture-planning Q&A compared with Salesforce Well-Architected Intentional and Data Integration decision guidance.
+- Coverage now **260/736** targeted source checks, **476** remaining. Question IDs and chapter structure unchanged.
+- These are editorial documentation comparisons; no Salesforce tenant execution or full reference-link validation was performed.
+
 # Changelog
 
 ## 4.4.0 — 2026-11-13
