@@ -1,5 +1,12 @@
 # Changelog
 
+## 4.3.0 — 2026-11-13
+- Completed targeted CloudPages/SSJS/OAuth/Automation Studio review batches, now **221 of 736** questions source-checked, **515** outstanding.
+- Improved execution-context explanations and secure form design, including `UpsertData()`, `CloudPagesURL()`, `DataExtension.Init()`, SSJS row retrieval/update, and API credential handling.
+- Clarified SQL Query Activity source/target constraints, Append/Update/Overwrite behavior, failure recovery, and duplicate-row prevention.
+- Preserved all stable question IDs, chapters and browser bookmarks; no new Q&A added.
+- Source URL inventory now has 172 unique reference values; live link checks, Salesforce tenant tests and CI execution confirmation remain pending.
+
 ## 4.2.0 — 2026-11-13
 - Extended source-grounded technical answer review to **184/736 questions (25%)** across all 30 chapters.
 - Updated Data 360 identity, DLO/DMO mapping, contact-point handling and zero-copy federation caveats.
