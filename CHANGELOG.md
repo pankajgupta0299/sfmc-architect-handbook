@@ -1,3 +1,8 @@
+## 4.8.0 — 2026-11-13
+- Audited 13 further CRM/integration questions: REST versus SOAP scope, secure webhook ingestion, Marketing Cloud Connect synchronized DE naming, API throttling and generic abandoned-checkout pattern.
+- Corrected references to Salesforce API, Synchronized Data Sources and authentication/rate-limiting guidance; clarified that Shopify platform-specific webhook details require their own verification.
+- Coverage **348/736 source-checked, 388 pending**. No tenant execution, exhaustive URL resolution or website verification completed.
+
 ## 4.7.0 — 2026-11-13
 - Reviewed 20 further enterprise/discovery questions, correcting Multi-Org distinction, MID context, sender domains, cross-CRM identity collisions and BU migration design.
 - Reviewed 32 further Contact Builder and Data Extension questions, correcting Population 1:1 requirements, Contact Delete implications, DE retention versus tracking retention, send relationship, and SQL Query Activity metadata caching.
