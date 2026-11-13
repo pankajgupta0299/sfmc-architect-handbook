@@ -211,3 +211,9 @@ A **PASS** indicates basic structural consistency, not verified content accuracy
 - Distinguished product-level unsubscribe behavior from broader legal permission, reachability and multi-channel consent.
 - Explicitly marked GDPR/CAN-SPAM and DPIA explanations as high-level, non-legal-advice architectural summaries.
 - **401/736** questions marked source-checked; **335 pending**. No automated URL availability check or platform-specific SMS legal certification.
+
+## MobileConnect and MobilePush audit — 2026-11-13 (v4.11)
+
+- 46 MobileConnect/MobilePush questions individually marked source-checked after review with Salesforce MobileConnect keyword/STOP and character-count guidance and the Salesforce Engagement SDK's configuration/registration documentation.
+- Corrections distinguish an SMS STOP across all keywords *on the receiving originator code* from a blanket all-channels withdrawal; explain segment-length variations (160/70 standard and 153/67 concatenated where supported); identify contact/device registration checks and possible delay.
+- **447/736 checked, 289 remaining**. Carrier legal, geography and phone/device behavior require separately supported tests in real environments.
