@@ -151,3 +151,21 @@ A **PASS** indicates basic structural consistency, not verified content accuracy
 - Verified via GitHub readback: 736 questions, 30 chapters, 221 source-check labels; stable IDs preserved. The structural content parsed without duplicate-ID errors during the update.
 - The prior GitHub Actions workflow remains configured; **a successful workflow execution is not confirmed here**.
 - No actual SFMC tenant execution of revised AMPscript, SQL or SSJS has occurred, and any production-oriented recommendation must be validated for the exact environment.
+
+## Phase 2 — Send, retention and Journey API review (2026-11-13, v4.4)
+
+**Individual targeted source checks: 245/736 (33.3%). Remaining: 491. Distinct reference URL values: 178.**
+
+### Completed in this pass
+
+- Reviewed **24 additional questions** on Email Studio Sender Profile, Delivery Profile, Send Classification, Commercial/Transactional opt-out option, Reply Mail Management, bounce handling, send eligibility, SubscriberKey and ContactKey, Data Extension retention, and Journey Builder API Event acceptance.
+- Verified Salesforce's current general distinction between **180 days in Automation Studio data views** and **730 days for broader send/engagement data access**. Source: https://help.salesforce.com/s/articleView?id=mktg.mc_overview_limits_data_retention.htm&language=en_US&type=5
+- Clarified updated dedicated/shared IP policies and the requirement to warm a new dedicated IP. Source: https://help.salesforce.com/s/articleView?id=000336500&language=en_US&type=1
+- Clarified Salesforce's distinction between auto suppression by email address, suppression lists by subscriber key, and exclusion lists/sendable DEs, including limitations for configuring exclusion DEs directly in Journey Builder. Source: https://help.salesforce.com/s/articleView?id=000389759&language=en_US&type=1
+- Clarified Event API accepted response versus downstream journey completion or email delivery. Source: https://developer.salesforce.com/docs/marketing/marketing-cloud/references/mc_rest_interaction/postEvent.html
+- Confirmed the existing **SFMC Handbook Quality Audit** ChatGPT scheduled task was explicitly disabled at the user's request. This is not part of the GitHub Actions structural validator, which remains configured.
+
+### Still pending
+
+- 491 questions require individual technical checks. A populated source link or source-checked badge means only the documented claim has undergone targeted comparison, not execution testing.
+- Complete URL health checks, code execution in a licensed Salesforce test tenant, browser validation and confirmed GitHub Actions runs remain open. No automated background continuation is currently enabled.
