@@ -6,6 +6,7 @@ Independent interview-first learning resource for Salesforce Marketing Cloud Eng
 - [Interview Handbook](index.html): canonical question bank.
 - [Use Case Library](use-cases.html): 82 searchable architecture scenarios with source links and shared bookmarks.
 - [Learning Path](learning-path.html): four learning tracks with 20 sequenced steps linking chapters and cases.
+- [Interview Practice](interview-practice.html): topic/level selection, short mock sessions, model-answer review, self-assessment and private browser-local progress; no login, AI or backend.
 - Open the self-contained HTML pages locally, or host together on the same origin to share saved questions.
 - To host it, enable GitHub Pages: Settings → Pages → Deploy from a branch → main → /(root).
 - Expected public URL: https://pankajgupta0299.github.io/sfmc-architect-handbook/
@@ -60,3 +61,12 @@ Independent educational project; not affiliated with Salesforce.
 - [GitHub Pages build and deployment](https://github.com/pankajgupta0299/sfmc-architect-handbook/actions/runs/43377579126): **success** on this commit.
 - The public Pages URL could not be fetched by the available external browser tool; therefore actual page rendering, accessibility, navigation behavior and live user-device functionality remain **unverified**, not failed.
 - These automated checks validate structural integrity and deployment status only; they do not establish the correctness of every technical claim, resolve all 209 reference URLs, or replace testing in an authorized Salesforce environment.
+
+## Interactive interview practice — first release
+
+- The existing handbook, direct links, use-case library, and learning paths remain available without login or practice onboarding.
+- `interview-practice.html` reads canonical Q&A directly from `index.html` at page load; `kind=case` entries are reserved for the use-case library, so sessions focus on the remaining interview Q&A.
+- Users choose a chapter, level and question count (5, 10 or 20), type optional unsaved notes, reveal source-linked answers and rate themselves as Need to learn / Partial / Confident.
+- Only question identifiers and self-assessment score history are saved in browser `localStorage`. No authentication, server database, answer upload or automatic accuracy scoring is used. Browser deletion or private browsing can erase progress; the progress does not sync across devices.
+- To preview locally, run `python3 -m http.server 8000` from the repository root and open `http://localhost:8000/interview-practice.html`. Browsers may block `fetch()` when opening files via `file://`; the GitHub Pages site serves the files over HTTP(S).
+- Future phases may include deeper concept-to-practice links, rubric-based assessments, progress analytics and optional securely hosted AI evaluations. These are not implied by the current release.
