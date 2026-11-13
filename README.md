@@ -30,10 +30,9 @@ Independent educational project; not affiliated with Salesforce.
 - Run `python3 scripts/validate_handbook.py` before every release to check embedded content structure, duplicate IDs/titles, missing references and obvious credential patterns.
 - Passing structure checks does not prove that 736 Q&A or 130 URLs have been individually fact-checked or that external links resolve.
 
-## Editorial verification progress (v4.2)
+## Editorial verification progress (v4.3)
 
-- **184 of 736** answers are marked `source_checked` after targeted comparison with Salesforce/Adobe documentation (2026-11-13). **552 remain without an individual source-check tag.**
-- The handbook interface shows this status per question and its current total automatically.
-- **166 unique reference URLs** appear in the current question bank. Not every link has been checked for resolution, redirects or relevance to every statement.
-- A GitHub Actions workflow is configured for Python structural checks; its successful execution and the live Pages deployment are not yet independently verified.
-- Refer to [QUALITY_AUDIT.md](QUALITY_AUDIT.md) for topic coverage and limitations. A source check is not the same as testing an implementation in a licensed SFMC environment.
+- **221 of 736** answers are tagged `source_checked` following targeted comparison with Salesforce documentation as of 2026-11-13. **515 remain without an individual check.**
+- **172 distinct reference URLs** are currently present; full URL health and per-claim relevance testing remain outstanding.
+- The website displays review badges and counts from the embedded Q&A, while GitHub Actions is configured for structural validation. No successful live CI or browser deployment verification is claimed.
+- Review [QUALITY_AUDIT.md](QUALITY_AUDIT.md) before using the handbook for a production architecture or public product.
