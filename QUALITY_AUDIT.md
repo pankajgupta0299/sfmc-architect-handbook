@@ -245,3 +245,11 @@ A **PASS** indicates basic structural consistency, not verified content accuracy
 - Checked 21 Personalization web SDK/catalog/identity labs; clarified SPA route lifecycle and legacy/current SDK namespace differences.
 - Checked 23 Data 360 identity/insight/activation labs, qualifying historical permission-set guidance and Unified Individual ID stability.
 - **657/736 reviewed; 79 pending.** Editorial source-checking is not a code-certification test.
+
+## Mobile integration and migration/delivery editorial closeout — 2026-11-13 (v4.16)
+
+- Compared 30 MobileConnect/MobilePush/MCC integration questions with Salesforce mobile, DLT/STOP, SDK, Salesforce Connect, and OAuth reference starting points. Corrected the India DLT upload description.
+- Compared 49 migration/delivery/Marketo questions with Salesforce OAuth, automation triggers/FTP, Contact Delete, sending/auto-suppression, Well-Architected and Adobe Marketo Experience League guidance. Corrected nondeterministic file-drop trigger overlap and Contact Delete's enterprise impact.
+- **All 736 questions now have documented `review.status=source_checked`.** This means an editorial documentation comparison, **not** that live code samples have been compiled/executed, all 202 distinct URLs have been resolution-tested, or that every reference supports every answer-specific claim. Additional high-confidence testing and claim-specific audits remain required before any assertion of complete production correctness.
+- In-memory checks of all 736 question records passed: valid chapter references, no duplicate IDs, nonempty required strings and HTTPS reference format, all review metadata present, no obvious personal-repository first-person phrases. Standalone Python validator/CI was not executed.
+- Live GitHub Pages verification attempted but the fetch service could not access the URL; no claim of successful production browser verification.
