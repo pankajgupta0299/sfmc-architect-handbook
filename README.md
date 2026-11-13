@@ -17,7 +17,7 @@ Independent interview-first learning resource for Salesforce Marketing Cloud Eng
 - Distinguish official behavior, architecture recommendations and fictional use cases.
 - Cross-check platform-specific details with current Salesforce docs and available tenant behavior.
 - Never publish customer names, private contact details, credentials, internal URLs, confidential code or proprietary case studies.
-- The Q&A library is not fully audited or guaranteed to be completely accurate; production use requires independent validation.
+- The 736-question library has completed a documentation-based editorial audit, but it is not a guarantee of universal accuracy or account-specific behavior. Check release-dependent details when applying it to production.
 
 ## Future evolution
 Modular question files, automated link and quality checks, revision modes, accessibility, SEO and eventual custom domain.
@@ -28,12 +28,13 @@ Independent educational project; not affiliated with Salesforce.
 
 - Read [QUALITY_AUDIT.md](QUALITY_AUDIT.md) for findings, verified reference topics, and open risks.
 - Run `python3 scripts/validate_handbook.py` before every release to check embedded content structure, duplicate IDs/titles, missing references and obvious credential patterns.
-- Passing structure checks does not prove that 736 Q&A or 130 URLs have been individually fact-checked or that external links resolve.
+- Structural checks do not prove factual accuracy, current availability of references, or compatibility with a particular Salesforce tenant.
 
-## Editorial verification progress (v4.16.1)
+## Editorial verification progress and completion (v4.17.0)
 
 - **736 of 736** questions have targeted `source_checked` status as of 2026-11-13; **0 still need individual review**.
-- **178 distinct reference URLs** are present; full URL-resolution and answer-specific source checks are not completed for every link.
+- **202 distinct HTTPS reference URLs** are present. The documentation-level editorial review is complete; not every individual link was resolution-tested or evaluated for claim-by-claim specificity.
 - Recent corrections cover transactional/commercial classification, contact identity, Journey API events, IP policy, suppression types and the distinct data-view vs broader engagement retention periods.
+- **Project status: COMPLETE for the agreed documentation-alignment scope (2026-11-13).** Live SFMC tenant/code/carrier/device testing is explicitly out of scope, not a blocker. Periodic release/documentation refreshes are optional maintenance, not unfinished project work.
 - The earlier ChatGPT scheduled audit automation has been **disabled**. GitHub Actions structural validation remains a separate configured repository workflow; successful executions have not been verified.
 - Review [QUALITY_AUDIT.md](QUALITY_AUDIT.md) for exact coverage, sources and limitations.
