@@ -1,3 +1,8 @@
+## 4.7.0 — 2026-11-13
+- Reviewed 20 further enterprise/discovery questions, correcting Multi-Org distinction, MID context, sender domains, cross-CRM identity collisions and BU migration design.
+- Reviewed 32 further Contact Builder and Data Extension questions, correcting Population 1:1 requirements, Contact Delete implications, DE retention versus tracking retention, send relationship, and SQL Query Activity metadata caching.
+- Coverage **335/736 source-checked; 401 pending**. Revisions preserve existing question IDs. Full URL resolution, Salesforce tenant execution and GitHub Pages health checks remain unverified.
+
 ## 4.6.0 — 2026-11-13
 - Source-checked 23 further questions: all 21 documentation/governance questions and MobileConnect/MobilePush discovery questions.
 - Updated two mobile discovery reference links to topic-specific Salesforce documentation starting points.
