@@ -1,3 +1,13 @@
+## 4.18.0 — 2026-11-13
+- Expanded the public handbook to **746 Q&A across 30 chapters**, including **78 independently written, source-referenced use cases**.
+- Created a dedicated `use-cases.html` with categorized case search, difficulty filter, sources and bookmarks synchronized with the main handbook.
+- Added `learning-path.html` with four learning tracks, 20 sequential lessons and links to existing chapter and case IDs; linked both pages from the main website navigation.
+- Continued a targeted Salesforce Drive knowledge-gap pass, drawing only generic, permissible concepts from readable source notes. Added six financial-services mobile scenarios, two Distributed Marketing/Marketing Cloud Advertising knowledge entries and two corresponding use cases, aligned with current Salesforce documentation.
+- Updated `DRIVE_COVERAGE.md` with readable documents, documents returning no extractable text, source-exclusion decisions and the remaining limitations of a partial—not full recursive—Drive inventory.
+- Added `scripts/sync_use_cases.py` to regenerate or check the dedicated page against the canonical `kind=case` handbook records.
+- The expanded Q&A bank contains **205 distinct HTTPS reference strings**. Documentation-level review is not exhaustive link-resolution verification or a warranty of product behavior in every edition.
+- No live Salesforce org, carrier or mobile-app testing was required; successful public GitHub Pages deployment has not been independently confirmed.
+
 ## 4.17.0 — 2026-11-13
 - **Marked the documentation-alignment task COMPLETE** under the user's explicitly accepted scope. Live Salesforce org execution, device/carrier testing and browser tests are out of scope, rather than remaining project blockers.
 - Retained **736/736 editorial source-checked Q&A across 30 chapters** and 202 distinct reference URLs; clarified the difference between documented editorial alignment and unverified link-by-link resolution / absolute production correctness.
