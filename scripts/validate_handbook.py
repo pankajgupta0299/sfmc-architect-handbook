@@ -83,7 +83,7 @@ def main() -> int:
         status = review.get("status")
         if status not in {"source_checked"}:
             errors.append(f"Question {q.get('id')} has unknown review status: {status!r}")
-        if not re.fullmatch(r"20\\d{2}-\\d{2}-\\d{2}", str(review.get("date", ""))):
+        if not re.fullmatch(r"20\d{2}-\d{2}-\d{2}", str(review.get("date", ""))):
             errors.append(f"Question {q.get('id')} has an invalid review date")
         if not isinstance(review.get("scope"), str) or not review["scope"].strip():
             errors.append(f"Question {q.get('id')} needs a clear review scope")
