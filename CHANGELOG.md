@@ -1,5 +1,16 @@
 # Changelog
 
+## 4.0.0 — 2026-11-13
+- Continued targeted documentation-based accuracy review: **97 of 736 Q&A** now have individual `source_checked` metadata; 639 remain without such an individual check.
+- Corrected terminology distinguishing universal/BU unsubscribe from Salesforce system-wide Global Unsubscribe.
+- Updated AMPscript functions for execution context, documented behavior and Engagement versus Marketing Cloud Next compatibility.
+- Improved WSProxy pagination, SQL timeout diagnostics, Journey Builder entry processing, goal and exit criteria, Decision Split order and source-to-contact data relationships.
+- Generalized residual career-specific examples in the public interview library.
+- Added visible question-level review labels and source-checked total on the handbook webpage.
+- Added a GitHub Actions structural-validation workflow and expanded the Python validator for review-metadata shape checks.
+- No full reference-link audit or SFMC tenant execution has been performed; the workflow's actual run status has not yet been independently confirmed.
+- Preserved all 736 question IDs and 30 chapters.
+
 ## 3.9.0 — 2026-11-13
 - Began answer-by-answer high-risk technical accuracy review of the 736-question library.
 - Rewrote/qualified **21 existing answers** about consent/unsubscribe scopes, Marketing Cloud Connect Multi-Org, synchronized data, Contact Delete, OAuth token handling and AMPscript lookup limits.
