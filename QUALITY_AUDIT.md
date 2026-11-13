@@ -204,3 +204,10 @@ A **PASS** indicates basic structural consistency, not verified content accuracy
 - Eliminated two direct references to a person's private repository or personal work in generic case-study answers; the underlying illustrative concepts remain.
 - In-memory validation of the embedded question JSON: 736 records, 30 chapters, zero duplicate question IDs, no missing chapter targets or required nonempty id/question/answer/reference, HTTPS references formatted. This does **not** verify URL availability or execute the Python validator/CI.
 - **381/736** question records marked source-checked; **355** awaiting individual editorial review.
+
+## Consent and security audit — 2026-11-13 (v4.10)
+
+- Compared 20 consent/privacy/security questions with Marketing Cloud Engagement Publication Lists and Unsubscribe documentation, the FTC CAN-SPAM business guide, European Commission GDPR rights guidance, the UK ICO DPIA guidance, and Salesforce Well-Architected patterns.
+- Distinguished product-level unsubscribe behavior from broader legal permission, reachability and multi-channel consent.
+- Explicitly marked GDPR/CAN-SPAM and DPIA explanations as high-level, non-legal-advice architectural summaries.
+- **401/736** questions marked source-checked; **335 pending**. No automated URL availability check or platform-specific SMS legal certification.
