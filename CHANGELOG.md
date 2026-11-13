@@ -1,3 +1,9 @@
+## 4.16.1 — 2026-11-13
+- Follow-up source-specific spot check corrected two Marketing Cloud Personalization catalog answers with explicit Product recommendation eligibility: valid name/URL, active/unexcluded/current publication, positive price and inventory, image URL.
+- Re-checked representative source links including AMPscript IsNullDefault, RaiseError and ClaimRow, Personalization Sitemap and Catalog, WSProxy pagination, Data 360 object model, OAuth rate limiting, and Model Context Protocol official spec.
+- Salesforce Help dynamic pages may show a loading/CSS challenge in the web retrieval environment; live GitHub Pages fetch was also not independently accessible. Do not treat these fetch limitations as evidence that a specific URL or site is broken.
+- Structural in-memory parity checks pass: 736/736 review records, 736 unique question IDs, 30 chapters, nonempty required fields, valid HTTPS reference string format, no duplicate normalized question titles or common hardcoded credential patterns. Python validator and live execution remain unrun.
+
 ## 4.16.0 — 2026-11-13
 - Completed a documentation-level question-by-question editorial pass of all **736 questions across 30 chapters**: 30 MobileConnect/MobilePush/MCC integration labs and 49 migration/delivery/Marketo labs in this release.
 - Clarified India DLT templates, MobileConnect STOP behavior, file-drop trigger overlaps (only one randomly selected), and enterprise-wide Contact Delete scope.
