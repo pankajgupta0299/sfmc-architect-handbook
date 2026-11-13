@@ -231,3 +231,9 @@ A **PASS** indicates basic structural consistency, not verified content accuracy
 - Reviewed 31 Data 360 and Marketing Cloud Next questions against Salesforce Data 360 description, DLO/DMO mapping, Calculated Insights, Marketing Cloud Next product differences, and official Model Context Protocol specification.
 - Removed first-person migration and Next skills descriptions from generic technical answers; framed interview examples explicitly as samples. Data Cloud was renamed Data 360 on October 14, 2025.
 - **534/736** marked source-checked, **202 pending**, with tenant tests and full link resolution still open.
+
+## Interview coaching and scenario audit — 2026-11-13 (v4.14)
+
+- 36 source/context editorial comparisons covering interviews, whiteboard scenarios, architectural trade-offs and rapid review against Salesforce Well-Architected, supported integration and relevant product reference material.
+- Corrected overly categorical cart-purchase cancellation language; removed unsupported ranking of most-frequently-tested scripting topics and presented them as useful study shortlists.
+- **570/736** checked; **166** remain, concentrated in field notes, code/personalization/Data 360 labs, mobile integrations and migration delivery. This source-check status is not equivalent to running a technical lab.
