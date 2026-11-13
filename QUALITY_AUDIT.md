@@ -80,3 +80,31 @@ A **PASS** indicates basic structural consistency, not verified content accuracy
 **Next review groups:** remaining consent and send classification questions; Contact Builder identity and Contact Delete edge cases; API error/retry and security implementation; SQL/AMPscript/SSJS code examples; Multi-Org deployment procedure; MobileConnect/MobilePush country and SDK constraints; Data 360 and Personalization capabilities.
 
 **Still open:** automated full-link resolution, browser end-to-end checks, code execution against an SFMC sandbox, tenant/license-specific validation and comprehensive fact review. Avoid claiming this handbook is 100% accurate until these are completed.
+
+## Phase 2 — Further high-risk audit passes (2026-11-13)
+
+**Current audited count: 97 / 736 questions**, using question-level `review.status=source_checked` metadata with a date and narrowly worded scope. **639 questions** are not individually checked in this audit. The total Q&A count remains unchanged, and all existing question IDs remain stable.
+
+### Reviewed in this update
+
+- **29 Q&A:** AMPscript write-function execution context, coupon behavior, CloudPagesURL encryption, RaiseError, WSProxy retrieval/pagination, HTTP.Post, Journey Data versus Contact Data, re-entry, SQL activity limitations and timeouts, and correction of two personalized interview narratives.
+- **25 Q&A:** unsubscribe scope, publication lists, security and consent, universal versus *Salesforce system-wide Global Unsubscribe*, compatibility of AMPscript functions between Marketing Cloud Engagement and Marketing Cloud Next, and Decision Split branch order.
+- **17 Q&A:** journey goals, exits and wait-activity evaluation, entry-source row evaluation options, Entry Results reporting, and SQL/Automation Studio recovery.
+- **16 Q&A:** detailed AMPscript data-extension lookups, AttributeValue, reusable content, TreatAsContent injection precautions, dynamic email links, and generalized project examples.
+- Some answers overlap across audit passes; **97** represents unique question IDs, not the sum of edit operations.
+
+### Critical corrections worth retaining
+
+1. **Unsubscribe taxonomy:** Universal unsubscribe corresponds to All Subscribers status within its applicable account/BU/enterprise scope; Salesforce's system-wide Global Unsubscribe is a separate restriction. Avoid conflating the two. Source: https://help.salesforce.com/s/articleView?id=000383658&language=en_US&type=1
+2. **AMPscript product matrix:** `ClaimRow()` and `ClaimRowValue()` are listed as supported in Marketing Cloud Engagement **and** Next. `UpsertData()`, `UpsertDE()`, `CloudPagesURL()`, `RedirectTo()`, `TreatAsContent()` and `AttributeValue()` are Engagement-only in the cited current compatibility matrix. Sources: https://developer.salesforce.com/docs/marketing/marketing-cloud-ampscript/references/mc-ampscript-references/mc-ampscript-references-index.html and https://developer.salesforce.com/docs/marketing/marketing-cloud-ampscript/references/mc-ampscript-data-extension
+3. **Journey entry data:** 'Evaluate new records only' isn't suitable for an overwritten filtered DE; choose processing mode based on append versus refreshed source behavior. Source: https://help.salesforce.com/s/articleView?id=sf.mc_jb_manage_audience_data.htm&language=en_US&type=5
+4. **Journey goal and exit timing:** Goals and exit criteria are evaluated at platform-defined points, including wait activity behavior; don't promise instant removal on every source-field change. Source: https://help.salesforce.com/s/articleView?id=mc_jb_goals.htm&language=en_US&type=5
+5. **Decision Splits:** Rules evaluate top-to-bottom; the first matching branch wins. Source: https://help.salesforce.com/s/articleView?id=sf.mc_jb_use_decision_splits.htm&language=en_US&type=5
+6. **WSProxy paging:** Use `HasMoreRows`, `RequestID` and `getNextBatch()`. Source: https://developer.salesforce.com/docs/marketing/marketing-cloud/guide/ssjs_WSProxy_advanced_retrieve.html
+
+### Validation and publishing controls
+
+- Added `.github/workflows/validate-handbook.yml` to run the existing structural Python validator on push to `main` and pull requests. Workflow file committed; **a successful GitHub Actions run has not been independently verified**.
+- Updated the validator to enforce the shape of question-level review metadata.
+- The public site now shows the source-checked count and per-question status. That label signals a targeted documentation comparison, **not** complete verification, legal certification, delivery testing, or guaranteed current license availability.
+- The validation script does not call Salesforce documentation or execute AMPscript/SQL/SSJS. Full reference URL checks, automated browser tests and tenant-specific execution are still open.
