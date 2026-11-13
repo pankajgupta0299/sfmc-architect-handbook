@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.9.0 — 2026-11-13
+- Began answer-by-answer high-risk technical accuracy review of the 736-question library.
+- Rewrote/qualified **21 existing answers** about consent/unsubscribe scopes, Marketing Cloud Connect Multi-Org, synchronized data, Contact Delete, OAuth token handling and AMPscript lookup limits.
+- Preserved every question ID and the total of 736 Q&A / 30 chapters.
+- Added `review.status=source_checked` metadata with review date and scope to the affected Q&A. This denotes targeted claim review, **not** full platform verification.
+- Updated `QUALITY_AUDIT.md` with the changes, evidence limitations, and future audit scope.
+- Remaining 715 questions have not yet been individually verified in this phase; full external reference-link validation remains open.
+
 ## 3.8.0 — 2026-11-13
 - Continued source-folder coverage review and integrated **20 more independently authored Q&A**: 12 CRM/suppression/forms scenarios and 8 Marketo-to-SFMC migration scenarios.
 - Confirmed Adobe Marketo Engage concepts against Adobe's 2026 documentation for Smart Lists, Smart Campaigns, Programs, statuses, nurturing and reporting; no proprietary exam items or course slides were reproduced.
