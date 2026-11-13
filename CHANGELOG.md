@@ -1,3 +1,8 @@
+## 4.12.0 — 2026-11-13
+- Source-checked 31 CloudPages, AMPscript and SSJS Q&A with Salesforce Engagement script references.
+- Corrected AMPscript `Empty()`/`IsNull()`/`IsNullDefault()` distinctions; specifically, `IsNullDefault` is for Smart Capture/Sites form-field defaulting, not a universal null-test function.
+- **478/736 source-checked, 258 pending.** CloudPages security recommendations and SSJS samples still require environment-specific code tests; no live tenant validation or full URL testing performed.
+
 ## 4.11.0 — 2026-11-13
 - Audited 46 further MobileConnect and MobilePush questions against Salesforce MobileConnect keywords/codes/STOP/character-count references and Engagement Mobile SDK configuration/registration/troubleshooting references.
 - Clarified code-level STOP scope, concatenated GSM-7/UCS-2 segment sizes, MobilePush device registration troubleshooting and possible registration processing delay.
