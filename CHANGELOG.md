@@ -1,3 +1,9 @@
+## 4.16.0 — 2026-11-13
+- Completed a documentation-level question-by-question editorial pass of all **736 questions across 30 chapters**: 30 MobileConnect/MobilePush/MCC integration labs and 49 migration/delivery/Marketo labs in this release.
+- Clarified India DLT templates, MobileConnect STOP behavior, file-drop trigger overlaps (only one randomly selected), and enterprise-wide Contact Delete scope.
+- In-memory data integrity checks: 736 unique IDs; 30 valid chapters; all 736 question-level review metadata objects populated; no missing required fields, bad HTTPS URL format or accidental first-person repository claims in heuristic scan. References now total **202 distinct HTTPS URL strings**; actual resolution not exhaustively verified.
+- **Editorial source-check coverage 736/736**, but this is **NOT** production certification. Open items: Salesforce tenant execution, compiled AMPscript/SSJS/SQL examples, full source-specific claim/link checks, country/carrier tests, SDK live-app QA, Python validator/CI runtime, and GitHub Pages browser validation (a live-site fetch was not accessible to the browsing service).
+
 ## 4.15.0 — 2026-11-13
 - Source-checked 26 field notes, 17 scripting labs, 21 Personalization labs, and 23 Data 360 labs (87 questions).
 - Corrected Marketing Cloud global-unsubscribe resubscription limits, deterministic Lead/Contact deduplication, MobilePush identity transitions, coupon ClaimRow requirements, SPA sitemap lifecycle and Unified Individual identity stability.
