@@ -1,3 +1,8 @@
+## 4.11.0 — 2026-11-13
+- Audited 46 further MobileConnect and MobilePush questions against Salesforce MobileConnect keywords/codes/STOP/character-count references and Engagement Mobile SDK configuration/registration/troubleshooting references.
+- Clarified code-level STOP scope, concatenated GSM-7/UCS-2 segment sizes, MobilePush device registration troubleshooting and possible registration processing delay.
+- **447/736 source-checked, 289 pending.** Market-specific carrier testing, SDK live-app validation, URL health and GitHub CI remain unverified.
+
 ## 4.10.0 — 2026-11-13
 - Source-checked 20 consent/security/governance questions against Salesforce Engagement publication/unsubscribe behavior, EU GDPR guidance, US FTC CAN-SPAM guidance, UK ICO DPIA guidance and Salesforce architecture patterns.
 - Corrected multi-channel permission assumptions, GDPR-versus-CAN-SPAM comparison and DPIA applicability. These sections are educational architecture summaries, not legal advice.
