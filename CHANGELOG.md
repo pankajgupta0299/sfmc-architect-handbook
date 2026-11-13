@@ -1,5 +1,12 @@
 # Changelog
 
+## 4.4.0 — 2026-11-13
+- Continued the technical audit manually after disabling the ChatGPT scheduled audit automation at the user's request.
+- Source-checked **24 more questions**, bringing the library to **245/736** with **491** remaining and 178 distinct reference URLs.
+- Clarified Commercial/Transactional Send Classification behavior, ContactKey/SubscriberKey, Data Extension retention, Journey API Event entry and acceptance, reply/bounce handling, IP warming and suppression categories.
+- Correctly separated the 180-day Automation Studio data-view retention limit from the separate 730-day general send-and-engagement data access policy.
+- Preserved all existing question IDs and 30 chapters. Reference URL health testing, Salesforce tenant code testing and live website/CI verification are still pending.
+
 ## 4.3.0 — 2026-11-13
 - Completed targeted CloudPages/SSJS/OAuth/Automation Studio review batches, now **221 of 736** questions source-checked, **515** outstanding.
 - Improved execution-context explanations and secure form design, including `UpsertData()`, `CloudPagesURL()`, `DataExtension.Init()`, SSJS row retrieval/update, and API credential handling.
