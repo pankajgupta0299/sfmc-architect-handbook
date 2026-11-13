@@ -217,3 +217,10 @@ A **PASS** indicates basic structural consistency, not verified content accuracy
 - 46 MobileConnect/MobilePush questions individually marked source-checked after review with Salesforce MobileConnect keyword/STOP and character-count guidance and the Salesforce Engagement SDK's configuration/registration documentation.
 - Corrections distinguish an SMS STOP across all keywords *on the receiving originator code* from a blanket all-channels withdrawal; explain segment-length variations (160/70 standard and 153/67 concatenated where supported); identify contact/device registration checks and possible delay.
 - **447/736 checked, 289 remaining**. Carrier legal, geography and phone/device behavior require separately supported tests in real environments.
+
+## CloudPages, AMPscript and SSJS audit — 2026-11-13 (v4.12)
+
+- Checked 31 CloudPages, AMPscript and SSJS questions against current Salesforce AMPscript Site/Utility/Date function reference and Marketing Cloud Engagement SSJS execution guidance.
+- Corrected misleading grouping of `IsNullDefault()` with generic null-testing functions: it provides defaulting for Smart Capture/Sites form values.
+- The reference comparison is not a claim that CloudPages offers production API gateway security or that all SSJS snippets have been run in a Salesforce tenant.
+- **478/736** reviewed; **258** remain.
