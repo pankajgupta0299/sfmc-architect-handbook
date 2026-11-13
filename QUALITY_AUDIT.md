@@ -188,3 +188,10 @@ A **PASS** indicates basic structural consistency, not verified content accuracy
 - Compared 20 additional enterprise/discovery questions with Salesforce Marketing Cloud Connect Multi-Org / BU guidance, REST account context and authenticated sender-domain guidance; adjusted specific statements and reference starting points.
 - Compared 32 additional Contact Builder / data questions with Salesforce Contact Management Trailhead, Data Designer/Population configuration, Contact Delete guidelines, data retention help and SQL Query Activity troubleshooting support articles. Key corrections: population 1:1 constraints, avoid >3 populations, DE retention distinct from system tracking retention, contact deletion not implied by DE removal, SQL activity metadata re-save after DE schema changes.
 - **335/736** individual source-check markings, **401 pending**. Source-check markings represent documentation/editorial comparison, not live tenancy tests. Full URL health and direct source relevance remain to be completed across the bank.
+
+## CRM integration audit — 2026-11-13 (v4.8)
+
+- Reviewed 13 additional `crm` questions using Salesforce APIs Overview, synchronized data source creation/best-practices, API integration, OAuth security and rate-limit guidance.
+- Clarified REST/SOAP differences and SFTP as a bulk transport, `_Salesforce_n` naming and minimization of sync fields, request authentication and throttling, and external event receiver patterns.
+- Updated generic Shopify abandoned-checkout case to avoid personal-project wording; Shopify-specific webhook signatures and checkout API behavior have not been independently certified by this Salesforce-only source check.
+- **348/736 checked, 388 pending.** Source checking is editorial and does not imply integration execution or end-to-end verification.
