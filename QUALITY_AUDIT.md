@@ -291,3 +291,11 @@ A **PASS** indicates basic structural consistency, not verified content accuracy
 - Platform assertions aligned with Salesforce Campaign Member Activity, Email Studio A/B Testing, Personalization Template Client JavaScript and Campaign Stats Tracking documentation; complex vendor/tenant configurations remain illustrative rather than guaranteed.
 - **Now 752 questions, 30 chapters, 82 public use cases, 209 unique HTTPS reference strings, all with scoped source_checked metadata.** The standalone case library was regenerated from canonical kind=case records. Question IDs from previous versions remain stable.
 - Source-specific gaps and licensed/private exclusions remain in DRIVE_COVERAGE.md; a full recursive Google Drive extraction was not necessary or claimed for this scoped public-learning project.
+
+## Verified GitHub workflow and deployment status — 2026-11-13
+
+- Repository `main` HEAD inspected at `3741b5cf6164e50b3e0070a4c9ac1e3b940af712` (v4.18.1).
+- Handbook content validation GitHub Actions run [43377578970](https://github.com/pankajgupta0299/sfmc-architect-handbook/actions/runs/43377578970) completed **successfully** for this exact commit. Workflow runs the handbook structural validator and canonical/standalone use-case parity check.
+- GitHub Pages build and deployment run [43377579126](https://github.com/pankajgupta0299/sfmc-architect-handbook/actions/runs/43377579126) completed **successfully** for the same commit.
+- A separate direct public-site fetch was inaccessible through the available browsing service, so interactive browser/mobile/accessibility functionality was **not** verified and no outage is inferred.
+- Historical entries describing CI status as unverified apply to earlier checkpoints; the above exact-commit workflow outcomes supersede them. Optional later QA includes individual external-link resolution and claim relevance, browser accessibility, and authorized tenant-specific execution; none changes the agreed documentation-alignment completion status.
