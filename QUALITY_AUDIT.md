@@ -176,3 +176,9 @@ A **PASS** indicates basic structural consistency, not verified content accuracy
 - Tagged the 15 question records with `review.status=source_checked`, retaining their IDs and existing content. This pass checked alignment of architectural recommendations, not Salesforce product execution behavior.
 - **Current coverage: 260/736**, with **476** not individually source-checked. No tenant testing or comprehensive URL-resolution audit performed.
 - Sources: https://architect.salesforce.com/docs/architect/well-architected/guide/intentional.html and https://architect.salesforce.com/docs/architect/decision-guides/guide/data-integration.html
+
+## Documentation and mobile discovery audit — 2026-11-13 (v4.6)
+
+- Checked 21 `docs-*` questions for architecture documentation and governance alignment with Salesforce Well-Architected Intentional guidance. Document formats and sample acceptance criteria are recommendations, not Salesforce platform requirements.
+- Checked `discovery-16` and `discovery-17` for MobileConnect STOP/country considerations and mobile SDK registration concerns, respectively; changed their reference starting URLs.
+- **283/736 source-checked; 453 remaining.** This is an editorial review, not a live tenant verification or comprehensive link audit.
