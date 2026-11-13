@@ -169,3 +169,10 @@ A **PASS** indicates basic structural consistency, not verified content accuracy
 
 - 491 questions require individual technical checks. A populated source link or source-checked badge means only the documented claim has undergone targeted comparison, not execution testing.
 - Complete URL health checks, code execution in a licensed Salesforce test tenant, browser validation and confirmed GitHub Actions runs remain open. No automated background continuation is currently enabled.
+
+## Phase 2 — Discovery and planning audit (2026-11-13, v4.5)
+
+- Reviewed 15 existing discovery/architecture planning questions against Salesforce Well-Architected Intentional guidance and Salesforce Data Integration Decision Guide.
+- Tagged the 15 question records with `review.status=source_checked`, retaining their IDs and existing content. This pass checked alignment of architectural recommendations, not Salesforce product execution behavior.
+- **Current coverage: 260/736**, with **476** not individually source-checked. No tenant testing or comprehensive URL-resolution audit performed.
+- Sources: https://architect.salesforce.com/docs/architect/well-architected/guide/intentional.html and https://architect.salesforce.com/docs/architect/decision-guides/guide/data-integration.html
