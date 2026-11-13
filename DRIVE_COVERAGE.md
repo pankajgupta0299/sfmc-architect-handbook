@@ -2,7 +2,7 @@
 
 **Inventory snapshot:** 2026-11-13  
 **Source folder:** Private Google Drive folder named `Salesforce`  
-**Public handbook:** 746 Q&A in 30 chapters, including 78 use cases (v4.18.0)  
+**Public handbook:** 752 Q&A in 30 chapters, including 82 use cases (v4.18.0)  
 **Confidentiality policy:** Do **not** publish source-document URLs, Google file identifiers, internal account references, client names, personal certificates/resumes, credentials, or verbatim proprietary training material.
 
 ## Reading this register
@@ -119,8 +119,8 @@
 
 ### Public assets after this pass
 
-- Main handbook: **746 Q&A, 30 chapters, 78 case-classified entries, 205 distinct HTTPS documentation references**.
-- Separate use-cases.html: **78** source-linked, searchable public cases across seven practice areas, using the same record IDs and saved bookmarks.
+- Main handbook: **752 Q&A, 30 chapters, 78 case-classified entries, 209 distinct HTTPS documentation references**.
+- Separate use-cases.html: **82** source-linked, searchable public cases across seven practice areas, using the same record IDs and saved bookmarks.
 - Separate learning-path.html: **four tracks with 20 steps** and verified chapter/case links.
 - scripts/sync_use_cases.py: maintenance check ensuring the standalone case data matches the canonical kind=case records.
 
@@ -133,3 +133,11 @@
 5. Only when a genuinely new, publishable concept emerges from a permitted source should it be independently rewritten, officially source-checked and added.
 
 **Acceptance:** Targeted, publicly publishable concept gap remediation is complete. An exhaustive extraction of all private and third-party files is explicitly not claimed.
+
+## Additional use-case and Personalization template source assessment — v4.18.1
+
+- Reviewed a readable historical SFMC implementation-use-case collection and a separate implementation case-study document. They include hard-bounce auto-suppression, time-to-expiry lifecycle messaging, web-form acknowledgments, CRM campaign-member engagement updates and controlled A/B testing. Prior suppression and lifecycle concepts were already represented; the three distinct latter topics were rewritten as synthetic architecture scenarios.
+- Reviewed readable Personalization web-template and server-side-template learning notes. Client-side apply/control/reset lifecycle, Promise-based deferred rendering and Campaign Stats Gear event instrumentation were identified as specific missing detail, then rewritten into two Q&A plus one practical case using official Salesforce developer references.
+- New source concepts were compared against Salesforce Journey Builder Campaign Member activity documentation, Email Studio A/B Testing, and Personalization Template Client JavaScript / Campaign Stats Tracking guidance before publishing.
+- **Current output:** 752 canonical Q&A in 30 chapters, 82 searchable cases in the separate use-case library, and 209 distinct HTTPS references. Private client narrative and server-side template code are not published.
+- Historical source documents often make absolute claims that are version- or account-dependent; these were treated as leads for verification rather than authoritative requirements.
