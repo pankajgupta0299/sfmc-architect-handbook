@@ -23,3 +23,5 @@ jobs:
         run: python3 scripts/validate_handbook.py
       - name: Verify standalone use-case bank parity
         run: python3 scripts/sync_use_cases.py --check
+      - name: Verify interview practice integration
+        run: python3 scripts/validate_interview_practice.py
