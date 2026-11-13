@@ -134,3 +134,20 @@ A **PASS** indicates basic structural consistency, not verified content accuracy
 3. Execute representative code against an authorized test Engagement/Personalization/Data 360 tenant and verify platform-appropriate function availability and query results.
 4. Verify GitHub Actions workflow execution and a live GitHub Pages browser test; neither is yet confirmed by an end-to-end check.
 5. Have legal/security specialists review any production consent, deletion, credential or regulatory guidance before using it as an operational authority.
+
+## Phase 2 — CloudPages, SSJS, OAuth and Automation pass (2026-11-13, v4.3)
+
+**Answer-level source checks: 221/736 (30%). Remaining: 515.** The question bank currently has **172 distinct reference URL values**. A reference field was populated or refined for reviewed answers, but a comprehensive HTTP/status/relevance audit across all URLs has not been run.
+
+### Reviewed and corrected in this pass
+
+- CloudPages: request/response lifecycle; GET versus POST; trust boundaries; `UpsertData()` versus email-context `UpsertDE()`; `CloudPagesURL()` encryption is not identity authentication; form idempotency, error handling and sensitive-data protection.
+- SSJS: Core versus Platform execution contexts; `DataExtension.Init()`; Core `Rows.Update()` error on no match; Core `Rows.Retrieve()` limit of 2,500 rows and restriction in email/previews; WSProxy/SOAP retrieval and middleware boundaries.
+- OAuth and CRM integration: server-to-server `/v2/token`; 20-minute actual token lifetime with 18-minute suggested refresh; optional `account_id` BU context; package scopes and secrets handling.
+- Automation Studio/SQL: target DE must not be a query source; Append adds, Update updates/adds, Overwrite replaces; source-grain deduplication; primary-key violations; workflow dependency controls; monitoring and safe backfills.
+
+### Current validation status
+
+- Verified via GitHub readback: 736 questions, 30 chapters, 221 source-check labels; stable IDs preserved. The structural content parsed without duplicate-ID errors during the update.
+- The prior GitHub Actions workflow remains configured; **a successful workflow execution is not confirmed here**.
+- No actual SFMC tenant execution of revised AMPscript, SQL or SSJS has occurred, and any production-oriented recommendation must be validated for the exact environment.
