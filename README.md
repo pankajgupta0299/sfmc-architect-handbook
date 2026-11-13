@@ -30,9 +30,10 @@ Independent educational project; not affiliated with Salesforce.
 - Run `python3 scripts/validate_handbook.py` before every release to check embedded content structure, duplicate IDs/titles, missing references and obvious credential patterns.
 - Passing structure checks does not prove that 736 Q&A or 130 URLs have been individually fact-checked or that external links resolve.
 
-## Editorial verification progress (v4.3)
+## Editorial verification progress (v4.4)
 
-- **221 of 736** answers are tagged `source_checked` following targeted comparison with Salesforce documentation as of 2026-11-13. **515 remain without an individual check.**
-- **172 distinct reference URLs** are currently present; full URL health and per-claim relevance testing remain outstanding.
-- The website displays review badges and counts from the embedded Q&A, while GitHub Actions is configured for structural validation. No successful live CI or browser deployment verification is claimed.
-- Review [QUALITY_AUDIT.md](QUALITY_AUDIT.md) before using the handbook for a production architecture or public product.
+- **245 of 736** questions have targeted `source_checked` status as of 2026-11-13; **491 still need individual review**.
+- **178 distinct reference URLs** are present; full URL-resolution and answer-specific source checks are not completed for every link.
+- Recent corrections cover transactional/commercial classification, contact identity, Journey API events, IP policy, suppression types and the distinct data-view vs broader engagement retention periods.
+- The earlier ChatGPT scheduled audit automation has been **disabled**. GitHub Actions structural validation remains a separate configured repository workflow; successful executions have not been verified.
+- Review [QUALITY_AUDIT.md](QUALITY_AUDIT.md) for exact coverage, sources and limitations.
